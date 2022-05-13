@@ -1,0 +1,24 @@
+{
+  "name": "healthcare_assistant_backend",
+  "version": "1.0.0",
+  "description": "",
+  "entry-point": "app.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "cryptojs": "^2.5.3",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.18.1",
+    "jsencrypt": "^3.2.1",
+    "node-rsa": "^1.1.1",
+    "web3": "^1.7.3"
+  }
+}
