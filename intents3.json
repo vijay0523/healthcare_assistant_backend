@@ -1,0 +1,494 @@
+{"intents": [
+	[
+		"please book an appointment for thusday at 4:00", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"schedule an appointment", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"would you please schedule an appointment for 4:00 on thursday", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"could you schedule an appointment for 4:00 on thursday", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"will you schedule an appointment for thursday at 4:00", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"can you reserve an appointment for 4:00 on thursday", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"i need to know how to schedule an appointment", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"please help me figure out how to set up an appointment", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"i need assistance scheduling an appointment", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"walk me through the process of scheduling an appointment", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"help me set up an appointment please", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"i need an appointment between 3-7, are any available", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"can you tell me if there are appointments available between 1 and 4", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"are appointments free between 8-3", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"do you know if appointments are open to use 1-2", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"can you check if appointment are available between 4 and 5", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"appointments open between one and three pm", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"check appointment availability between one and three pm", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"what appointments are available for meeting 5pm friday", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"reserve an appointment for friday, 5pm", 
+		0,
+		"schedule_appointment"
+	],
+	[
+		"friday 5pm schedule an appointment", 
+		0,
+		"schedule_appointment"
+	],
+	[
+		"reserve an appointment for 5pm on friday", 
+		0,
+		"schedule_appointment"
+	],
+	[
+		"i would like to meet a doctor", 
+		0,
+		"schedule_appointment"
+	],
+	[
+		"i would like to schedule an appointment with a doctor", 
+		0,
+		"schedule_appointment"
+	],
+	[
+		"i need to schedule an appointment for monday at 2:30 pm, please", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"i would like you to reserve an appointment for noon tomorrow", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"please reserve an appointment for 1:00 pm on tuesday", 
+		0,
+		"schedule_appointment"
+	],
+	[
+		"can you book an appointment for friday at 9:00 am", 
+		0,
+		"schedule_appointment"
+	], 
+	[
+		"who is your designer", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"what company is responsible for your design", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who is responsible for your design", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"what firm is responsible for your design", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who were you created by", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"what is the company that made you", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who are you manufactured by", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who is your manufacturer", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who makes you", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"what organization manufactures you", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who's your creator", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"what manufactures you", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who is the person responsible for creating you", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who brought you into existence", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who formed thou", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who conjured you", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who programmed you", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"where were you programmed", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"what company designed you", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"who or what programmed you, do you know", 
+		1,
+		"who_made_you"
+	], 
+	[
+		"how ya doin", 
+		2,
+		"greeting"
+	], 
+	[
+		"how ya been", 
+		2,
+		"greeting"
+	], 
+	[
+		"hows are ya", 
+		2,
+		"greeting"
+	], 
+	[
+		"heyo", 
+		2,
+		"greeting"
+	], 
+	[
+		"are you good", 
+		2,
+		"greeting"
+	], 
+	[
+		"how is it going my friend", 
+		2,
+		"greeting"
+	], 
+	[
+		"how you are", 
+		2,
+		"greeting"
+	], 
+	[
+		"tell me how are you", 
+		2,
+		"greeting"
+	], 
+	[
+		"hi what's up", 
+		2,
+		"greeting"
+	], 
+	[
+		"hey what's up", 
+		2,
+		"greeting"
+	], 
+	[
+		"hey how's it going", 
+		2,
+		"greeting"
+	], 
+	[
+		"hi, ai", 
+		2,
+		"greeting"
+	], 
+	[
+		"good morning, ai", 
+		2,
+		"greeting"
+	], 
+	[
+		"how've you been", 
+		2,
+		"greeting"
+	], 
+	[
+		"wassup", 
+		2,
+		"greeting"
+	], 
+	[
+		"hey", 
+		2,
+		"greeting"
+	], 
+	[
+		"hiya", 
+		2,
+		"greeting"
+	], 
+	[
+		"how's it hanging", 
+		2,
+		"greeting"
+	], 
+	[
+		"hi", 
+		2,
+		"greeting"
+	], 
+	[
+		"hello", 
+		2,
+		"greeting"
+	], 
+	[
+		"see ya!", 
+		3,
+		"goodbye"
+	],
+	[
+		"bye", 
+		3,
+		"goodbye"
+	],
+	[
+		"byee", 
+		3,
+		"goodbye"
+	], 
+	[
+		"this was fun, see you around bye", 
+		3,
+		"goodbye"
+	], 
+	[
+		"until next time", 
+		3,
+		"goodbye"
+	], 
+	[
+		"i enjoyed our talk, bye", 
+		3,
+		"goodbye"
+	], 
+	[
+		"this was a nice chat", 
+		3,
+		"goodbye"
+	], 
+	[
+		"i enjoyed speaking with you", 
+		3,
+		"goodbye"
+	], 
+	[
+		"peace out!", 
+		3,
+		"goodbye"
+	], 
+	[
+		"this was a nice chat, goodbye", 
+		3,
+		"goodbye"
+	], 
+	[
+		"this was a nice conversation", 
+		3,
+		"goodbye"
+	], 
+	[
+		"good talk, see you later", 
+		3,
+		"goodbye"
+	], 
+	[
+		"it was lovely to speak with you", 
+		3,
+		"goodbye"
+	], 
+	[
+		"it was lovely to speak with you, bye bye", 
+		3,
+		"goodbye"
+	], 
+	[
+		"thank you for the chat, goodbye", 
+		3,
+		"goodbye"
+	], 
+	[
+		"a pleasure as always to speak with you, bye", 
+		3,
+		"goodbye"
+	], 
+	[
+		"thank you for chatting with me, bye", 
+		3,
+		"goodbye"
+	], 
+	[
+		"i enjoyed our talk, goodbye", 
+		3,
+		"goodbye"
+	], 
+	[
+		"it was a pleasure talking to you, goodbye now", 
+		3,
+		"goodbye"
+	], 
+	[
+		"farewell", 
+		3,
+		"goodbye"
+	], 
+	[
+		"goodnight", 
+		3,
+		"goodbye"
+	], 
+	[
+		"have a good day", 
+		3,
+		"goodbye"
+	],
+	[
+		"",
+		4,
+		"invalid"
+	],
+	[
+		"aaaa",
+		4,
+		"invalid"
+	],
+	[
+		"bbbb",
+		4,
+		"invalid"
+	],
+	[
+		"zdfsgd",
+		4,
+		"invalid"
+	],
+	[
+		"wtf",
+		4,
+		"invalid"
+	],
+	[
+		"sdf sdg hjk rer",
+		4,
+		"invalid"
+	],
+	[
+		"dslkg seksfl eskfl",
+		4,
+		"invalid"
+	],
+	[
+		"weather",
+		4,
+		"invalid"
+	]
+		
+   ]
+}

@@ -1,0 +1,10474 @@
+{
+  "intents": [
+    [
+      "hypertensive  disease",
+      0,
+      "pain  chest"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "shortness  of breath"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "dizziness"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "asthenia"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "fall"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "syncope"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "vertigo"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "sweat",
+      "sweating  increased"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "palpitation"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "nausea"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "angina  pectoris"
+    ],
+    [
+      "hypertensive  disease",
+      0,
+      "pressure  chest"
+    ],
+    [
+      "diabetes",
+      1,
+      "polyuria"
+    ],
+    [
+      "diabetes",
+      1,
+      "polydypsia"
+    ],
+    [
+      "diabetes",
+      1,
+      "shortness  of breath"
+    ],
+    [
+      "diabetes",
+      1,
+      "pain  chest"
+    ],
+    [
+      "diabetes",
+      1,
+      "asthenia"
+    ],
+    [
+      "diabetes",
+      1,
+      "nausea"
+    ],
+    [
+      "diabetes",
+      1,
+      "orthopnea"
+    ],
+    [
+      "diabetes",
+      1,
+      "rale"
+    ],
+    [
+      "diabetes",
+      1,
+      "sweat"
+    ],
+    [
+      "diabetes",
+      1,
+      "sweating  increased"
+    ],
+    [
+      "diabetes",
+      1,
+      "unresponsiveness"
+    ],
+    [
+      "diabetes",
+      1,
+      "mental  status changes"
+    ],
+    [
+      "diabetes",
+      1,
+      "vertigo"
+    ],
+    [
+      "diabetes",
+      1,
+      "vomiting"
+    ],
+    [
+      "diabetes",
+      1,
+      "labored breathing"
+    ],
+    [
+      "depression  mental",
+      2,
+      "feeling  suicidal"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "feeling  suicidal"
+    ],
+    [
+      "depression  mental",
+      2,
+      "suicidal"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "suicidal"
+    ],
+    [
+      "depression  mental",
+      2,
+      "hallucinations  auditory"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "hallucinations  auditory"
+    ],
+    [
+      "depression  mental",
+      2,
+      "feeling  hopeless"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "feeling  hopeless"
+    ],
+    [
+      "depression  mental",
+      2,
+      "weepiness"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "weepiness"
+    ],
+    [
+      "depression  mental",
+      2,
+      "sleeplessness"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "sleeplessness"
+    ],
+    [
+      "depression  mental",
+      2,
+      "motor  retardation"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "motor  retardation"
+    ],
+    [
+      "depression  mental",
+      2,
+      "irritable  mood"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "irritable  mood"
+    ],
+    [
+      "depression  mental",
+      2,
+      "blackout"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "blackout"
+    ],
+    [
+      "depression  mental",
+      2,
+      "mood  depressed"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "mood  depressed"
+    ],
+    [
+      "depression  mental",
+      2,
+      "hallucinations  visual"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "hallucinations  visual"
+    ],
+    [
+      "depression  mental",
+      2,
+      "worry"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "worry"
+    ],
+    [
+      "depression  mental",
+      2,
+      "agitation"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "agitation"
+    ],
+    [
+      "depression  mental",
+      2,
+      "tremor"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "tremor"
+    ],
+    [
+      "depression  mental",
+      2,
+      "intoxication"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "intoxication"
+    ],
+    [
+      "depression  mental",
+      2,
+      "verbal  auditory hallucinations"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "verbal  auditory hallucinations"
+    ],
+    [
+      "depression  mental",
+      2,
+      "energy  increased"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "energy  increased"
+    ],
+    [
+      "depression  mental",
+      2,
+      "difficulty"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "difficulty"
+    ],
+    [
+      "depression  mental",
+      2,
+      "nightmare"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "nightmare"
+    ],
+    [
+      "depression  mental",
+      2,
+      "unable  to concentrate"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "unable  to concentrate"
+    ],
+    [
+      "depression  mental",
+      2,
+      "homelessness"
+    ],
+    [
+      "depressive disorder",
+      3,
+      "homelessness"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "pain  chest"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "pain  chest"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "angina  pectoris"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "angina  pectoris"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "shortness  of breath"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "shortness  of breath"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "hypokinesia"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "hypokinesia"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "sweat",
+      "sweating  increased"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "sweat",
+      "sweating  increased"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "pressure  chest"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "pressure  chest"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "dyspnea  on exertion"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "dyspnea  on exertion"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "orthopnea"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "orthopnea"
+    ],
+    [
+      "coronary  arteriosclerosis",
+      4,
+      "chest  tightness"
+    ],
+    [
+      "coronary heart disease",
+      5,
+      "chest  tightness"
+    ],
+    [
+      "pneumonia",
+      6,
+      "cough"
+    ],
+    [
+      "pneumonia",
+      6,
+      "fever"
+    ],
+    [
+      "pneumonia",
+      6,
+      "decreased  translucency"
+    ],
+    [
+      "pneumonia",
+      6,
+      "shortness  of breath"
+    ],
+    [
+      "pneumonia",
+      6,
+      "rale"
+    ],
+    [
+      "pneumonia",
+      6,
+      "productive  cough"
+    ],
+    [
+      "pneumonia",
+      6,
+      "pleuritic  pain"
+    ],
+    [
+      "pneumonia",
+      6,
+      "yellow  sputum"
+    ],
+    [
+      "pneumonia",
+      6,
+      "breath  sounds decreased"
+    ],
+    [
+      "pneumonia",
+      6,
+      "chill"
+    ],
+    [
+      "pneumonia",
+      6,
+      "rhonchus"
+    ],
+    [
+      "pneumonia",
+      6,
+      "green  sputum"
+    ],
+    [
+      "pneumonia",
+      6,
+      "non-productive  cough"
+    ],
+    [
+      "pneumonia",
+      6,
+      "wheezing"
+    ],
+    [
+      "pneumonia",
+      6,
+      "haemoptysis"
+    ],
+    [
+      "pneumonia",
+      6,
+      "distress  respiratory"
+    ],
+    [
+      "pneumonia",
+      6,
+      "tachypnea"
+    ],
+    [
+      "pneumonia",
+      6,
+      "malaise"
+    ],
+    [
+      "pneumonia",
+      6,
+      "night  sweat"
+    ],
+    [
+      "failure  heart congestive",
+      7,
+      "shortness  of breath"
+    ],
+    [
+      "failure  heart congestive",
+      7,
+      "orthopnea"
+    ],
+    [
+      "failure  heart congestive",
+      7,
+      "jugular  venous distention"
+    ],
+    [
+      "failure  heart congestive",
+      7,
+      "rale"
+    ],
+    [
+      "failure  heart congestive",
+      7,
+      "dyspnea"
+    ],
+    [
+      "failure  heart congestive",
+      7,
+      "cough"
+    ],
+    [
+      "failure  heart congestive",
+      7,
+      "wheezing"
+    ],
+    [
+      "accident  cerebrovascular",
+      8,
+      "dysarthria"
+    ],
+    [
+      "accident  cerebrovascular",
+      8,
+      "asthenia"
+    ],
+    [
+      "accident  cerebrovascular",
+      8,
+      "speech  slurred"
+    ],
+    [
+      "accident  cerebrovascular",
+      8,
+      "facial  paresis"
+    ],
+    [
+      "accident  cerebrovascular",
+      8,
+      "hemiplegia"
+    ],
+    [
+      "accident  cerebrovascular",
+      8,
+      "unresponsiveness"
+    ],
+    [
+      "accident  cerebrovascular",
+      8,
+      "seizure"
+    ],
+    [
+      "accident  cerebrovascular",
+      8,
+      "numbness"
+    ],
+    [
+      "asthma",
+      9,
+      "wheezing"
+    ],
+    [
+      "asthma",
+      9,
+      "cough"
+    ],
+    [
+      "asthma",
+      9,
+      "shortness  of breath"
+    ],
+    [
+      "asthma",
+      9,
+      "chest  tightness"
+    ],
+    [
+      "asthma",
+      9,
+      "non-productive  cough"
+    ],
+    [
+      "asthma",
+      9,
+      "pleuritic  pain"
+    ],
+    [
+      "asthma",
+      9,
+      "productive  cough"
+    ],
+    [
+      "asthma",
+      9,
+      "symptom  aggravating factors"
+    ],
+    [
+      "asthma",
+      9,
+      "distress  respiratory"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "pain chest"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "st segment elevation"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "sweat"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "sweating increased"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "shortness of breath"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "st segment depression"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "hypokinesia"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "angina pectoris"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "pressure chest"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "t wave inverted"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "orthopnea"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "rale"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "chest tightness"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "presence of q wave"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "palpitation"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "dyspnea"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "chest discomfort"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "bradycardia"
+    ],
+    [
+      "myocardial  infarction",
+      10,
+      "syncope"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "pain"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "pain chest"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "sweat"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "sweating increased"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "nonsmoker"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "pressure chest"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "syncope"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "numbness"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "chest discomfort"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "shortness of breath"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "st segment depression"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "worry"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "t wave inverted"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "bradycardia"
+    ],
+    [
+      "hypercholesterolemia",
+      11,
+      "dyspnea"
+    ],
+    [
+      "infection",
+      12,
+      "fever"
+    ],
+    [
+      "infection",
+      12,
+      "erythema"
+    ],
+    [
+      "infection",
+      12,
+      "decreased translucency"
+    ],
+    [
+      "infection",
+      12,
+      "hepatosplenomegaly"
+    ],
+    [
+      "infection",
+      12,
+      "chill"
+    ],
+    [
+      "infection",
+      12,
+      "pruritus"
+    ],
+    [
+      "infection",
+      12,
+      "diarrhea"
+    ],
+    [
+      "infection",
+      12,
+      "abscess bacterial"
+    ],
+    [
+      "infection",
+      12,
+      "swelling"
+    ],
+    [
+      "infection",
+      12,
+      "pain"
+    ],
+    [
+      "infection",
+      12,
+      "apyrexial"
+    ],
+    [
+      "infection",
+      12,
+      "cough"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "fever"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "dysuria"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "hematuria"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "renal angle tenderness"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "lethargy"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "asthenia"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "hyponatremia"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "hemodynamically stable"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "distress respiratory"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "difficulty passing urine"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "mental status changes"
+    ],
+    [
+      "infection  urinary tract",
+      13,
+      "consciousness clear"
+    ],
+    [
+      "anemia",
+      14,
+      "chill"
+    ],
+    [
+      "anemia",
+      14,
+      "guaiac positive"
+    ],
+    [
+      "anemia",
+      14,
+      "monoclonal"
+    ],
+    [
+      "anemia",
+      14,
+      "ecchymosis"
+    ],
+    [
+      "anemia",
+      14,
+      "tumor cell invasion"
+    ],
+    [
+      "anemia",
+      14,
+      "haemorrhage"
+    ],
+    [
+      "anemia",
+      14,
+      "pallor"
+    ],
+    [
+      "anemia",
+      14,
+      "asthenia"
+    ],
+    [
+      "anemia",
+      14,
+      "fatigue"
+    ],
+    [
+      "anemia",
+      14,
+      "heme positive"
+    ],
+    [
+      "anemia",
+      14,
+      "pain back"
+    ],
+    [
+      "anemia",
+      14,
+      "orthostasis"
+    ],
+    [
+      "anemia",
+      14,
+      "hyponatremia"
+    ],
+    [
+      "anemia",
+      14,
+      "dizziness"
+    ],
+    [
+      "anemia",
+      14,
+      "shortness of breath"
+    ],
+    [
+      "anemia",
+      14,
+      "pain"
+    ],
+    [
+      "anemia",
+      14,
+      "rhonchus"
+    ],
+    [
+      "anemia",
+      14,
+      "arthralgia"
+    ],
+    [
+      "anemia",
+      14,
+      "swelling"
+    ],
+    [
+      "anemia",
+      14,
+      "transaminitis"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "shortness of breath"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "wheezing"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "cough"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "dyspnea"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "distress respiratory"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "sputum purulent"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "hypoxemia"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "hypercapnia"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "patient non compliance"
+    ],
+    [
+      "chronic  obstructive airway disease",
+      15,
+      "chest tightness"
+    ],
+    [
+      "dementia",
+      16,
+      "fever"
+    ],
+    [
+      "dementia",
+      16,
+      "fall"
+    ],
+    [
+      "dementia",
+      16,
+      "unresponsiveness"
+    ],
+    [
+      "dementia",
+      16,
+      "lethargy"
+    ],
+    [
+      "dementia",
+      16,
+      "agitation"
+    ],
+    [
+      "dementia",
+      16,
+      "ecchymosis"
+    ],
+    [
+      "dementia",
+      16,
+      "syncope"
+    ],
+    [
+      "dementia",
+      16,
+      "rale"
+    ],
+    [
+      "dementia",
+      16,
+      "unconscious state"
+    ],
+    [
+      "dementia",
+      16,
+      "cough"
+    ],
+    [
+      "dementia",
+      16,
+      "bedridden",
+      "bedridden"
+    ],
+    [
+      "dementia",
+      16,
+      "pain"
+    ],
+    [
+      "dementia",
+      16,
+      "facial paresis"
+    ],
+    [
+      "dementia",
+      16,
+      "abdominal tenderness"
+    ],
+    [
+      "dementia",
+      16,
+      "rhonchus"
+    ],
+    [
+      "dementia",
+      16,
+      "unsteady gait"
+    ],
+    [
+      "dementia",
+      16,
+      "hallucinations auditory"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "shortness of breath"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "hyperkalemia"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "orthopnea"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "rale"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "urgency of micturition"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "ascites"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "guaiac positive"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "asthenia"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "apyrexial"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "mental status changes"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "dyspnea"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "difficulty"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "diarrhea"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "hypotension"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "breath sounds decreased"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "swelling"
+    ],
+    [
+      "insufficiency  renal",
+      17,
+      "hypokinesia"
+    ],
+    [
+      "confusion",
+      18,
+      "seizure"
+    ],
+    [
+      "confusion",
+      18,
+      "enuresis"
+    ],
+    [
+      "confusion",
+      18,
+      "lethargy"
+    ],
+    [
+      "confusion",
+      18,
+      "speech slurred"
+    ],
+    [
+      "confusion",
+      18,
+      "fall"
+    ],
+    [
+      "confusion",
+      18,
+      "consciousness clear"
+    ],
+    [
+      "confusion",
+      18,
+      "mental status changes"
+    ],
+    [
+      "confusion",
+      18,
+      "asterixis"
+    ],
+    [
+      "confusion",
+      18,
+      "unconscious state"
+    ],
+    [
+      "confusion",
+      18,
+      "agitation"
+    ],
+    [
+      "confusion",
+      18,
+      "muscle twitch"
+    ],
+    [
+      "confusion",
+      18,
+      "asthenia"
+    ],
+    [
+      "confusion",
+      18,
+      "sleepy"
+    ],
+    [
+      "confusion",
+      18,
+      "dizziness"
+    ],
+    [
+      "confusion",
+      18,
+      "headache"
+    ],
+    [
+      "confusion",
+      18,
+      "dysarthria"
+    ],
+    [
+      "confusion",
+      18,
+      "lightheadedness"
+    ],
+    [
+      "confusion",
+      18,
+      "tremor"
+    ],
+    [
+      "confusion",
+      18,
+      "hyponatremia"
+    ],
+    [
+      "confusion",
+      18,
+      "unresponsiveness"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "pain"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "food  intolerance"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "numbness  of hand"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "general  discomfort"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "drowsiness"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "asthenia"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "nonsmoker"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "non-productive  cough"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "polydypsia"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "stiffness"
+    ],
+    [
+      "degenerative  polyarthritis",
+      19,
+      "unsteady  gait"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "shortness of breath"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "prostatism"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "drowsiness",
+      "sleepy"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "hyponatremia"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "fall"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "unsteady gait"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "polyuria"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "hypotension"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "difficulty"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "syncope"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "nightmare"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "speech slurred"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "weight gain"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "asthenia"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "fatigue",
+      "tired"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "agitation"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "mental status changes"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "motor retardation"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "vomiting"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "numbness"
+    ],
+    [
+      "hypothyroidism",
+      20,
+      "mass of body structure"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "worry"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "feeling suicidal"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "suicidal"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "sleeplessness"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "feeling hopeless"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "irritable mood"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "tremor"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "blackout"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "weepiness"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "has religious belief"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "nervousness"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "hallucinations visual"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "formication"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "difficulty"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "pain chest"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "patient non compliance"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "agitation"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "palpitation"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "hallucinations auditory"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "mood depressed"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "hot flush"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "pain"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "consciousness clear"
+    ],
+    [
+      "anxiety  state",
+      21,
+      "nightmare"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "pain"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "pain"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "mass of body structure"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "mass of body structure"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "lesion"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "lesion"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "cushingoid facies",
+      "cushingoid habitus"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "cushingoid facies",
+      "cushingoid habitus"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "emphysematous change"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "emphysematous change"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "decreased body weight"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "decreased body weight"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "ascites"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "ascites"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "hoarseness"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "hoarseness"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "thicken"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "thicken"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "hematuria"
+    ],
+    [
+      "primary malignant neoplasm",
+      23,
+      "hematuria"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "fever"
+    ],
+    [
+      "HIV",
+      25,
+      "fever"
+    ],
+    [
+      "hiv infections",
+      26,
+      "fever"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "night sweat"
+    ],
+    [
+      "HIV",
+      25,
+      "night sweat"
+    ],
+    [
+      "hiv infections",
+      26,
+      "night sweat"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "spontaneous rupture of membranes"
+    ],
+    [
+      "HIV",
+      25,
+      "spontaneous rupture of membranes"
+    ],
+    [
+      "hiv infections",
+      26,
+      "spontaneous rupture of membranes"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "cough"
+    ],
+    [
+      "HIV",
+      25,
+      "cough"
+    ],
+    [
+      "hiv infections",
+      26,
+      "cough"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      ""
+    ],
+    [
+      "HIV",
+      25,
+      ""
+    ],
+    [
+      "hiv infections",
+      26,
+      ""
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "decreased body weight"
+    ],
+    [
+      "HIV",
+      25,
+      "decreased body weight"
+    ],
+    [
+      "hiv infections",
+      26,
+      "decreased body weight"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "chill"
+    ],
+    [
+      "HIV",
+      25,
+      "chill"
+    ],
+    [
+      "hiv infections",
+      26,
+      "chill"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "diarrhea"
+    ],
+    [
+      "HIV",
+      25,
+      "diarrhea"
+    ],
+    [
+      "hiv infections",
+      26,
+      "diarrhea"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "pleuritic pain"
+    ],
+    [
+      "HIV",
+      25,
+      "pleuritic pain"
+    ],
+    [
+      "hiv infections",
+      26,
+      "pleuritic pain"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "patient non compliance"
+    ],
+    [
+      "HIV",
+      25,
+      "patient non compliance"
+    ],
+    [
+      "hiv infections",
+      26,
+      "patient non compliance"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "tachypnea"
+    ],
+    [
+      "HIV",
+      25,
+      "tachypnea"
+    ],
+    [
+      "hiv infections",
+      26,
+      "tachypnea"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "productive cough"
+    ],
+    [
+      "HIV",
+      25,
+      "productive cough"
+    ],
+    [
+      "hiv infections",
+      26,
+      "productive cough"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "muscle hypotonia",
+      "hypotonic"
+    ],
+    [
+      "HIV",
+      25,
+      "muscle hypotonia",
+      "hypotonic"
+    ],
+    [
+      "hiv infections",
+      26,
+      "muscle hypotonia",
+      "hypotonic"
+    ],
+    [
+      "acquired  immuno-deficiency  syndrome",
+      24,
+      "feeling suicidal"
+    ],
+    [
+      "HIV",
+      25,
+      "feeling suicidal"
+    ],
+    [
+      "hiv infections",
+      26,
+      "feeling suicidal"
+    ],
+    [
+      "cellulitis",
+      27,
+      "erythema"
+    ],
+    [
+      "cellulitis",
+      27,
+      "pain"
+    ],
+    [
+      "cellulitis",
+      27,
+      "swelling"
+    ],
+    [
+      "cellulitis",
+      27,
+      "redness"
+    ],
+    [
+      "cellulitis",
+      27,
+      "fever"
+    ],
+    [
+      "cellulitis",
+      27,
+      "abscess bacterial"
+    ],
+    [
+      "cellulitis",
+      27,
+      "patient non compliance"
+    ],
+    [
+      "cellulitis",
+      27,
+      "hypesthesia"
+    ],
+    [
+      "cellulitis",
+      27,
+      "hyperacusis"
+    ],
+    [
+      "cellulitis",
+      27,
+      "pruritus"
+    ],
+    [
+      "cellulitis",
+      27,
+      "pain chest"
+    ],
+    [
+      "cellulitis",
+      27,
+      "scratch marks"
+    ],
+    [
+      "cellulitis",
+      27,
+      "chill"
+    ],
+    [
+      "cellulitis",
+      27,
+      "sore to touch"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "pain"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "pain chest"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "burning sensation"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "hyponatremia"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "satiety early"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "throbbing sensation quality"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "chest tightness"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "sensory discomfort"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "presence of q wave"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "nausea"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "general discomfort"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "constipation"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "palpitation"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "pain abdominal"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "heartburn"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "sweat",
+      "sweating increased"
+    ],
+    [
+      "gastroesophageal  reflux disease",
+      28,
+      "asthenia"
+    ],
+    [
+      "septicemia",
+      29,
+      "fever"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "fever"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "fever"
+    ],
+    [
+      "septicemia",
+      29,
+      "distress respiratory"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "distress respiratory"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "distress respiratory"
+    ],
+    [
+      "septicemia",
+      29,
+      "hypotension"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "hypotension"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "hypotension"
+    ],
+    [
+      "septicemia",
+      29,
+      "tachypnea"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "tachypnea"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "tachypnea"
+    ],
+    [
+      "septicemia",
+      29,
+      "chill"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "chill"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "chill"
+    ],
+    [
+      "septicemia",
+      29,
+      "lethargy"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "lethargy"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "lethargy"
+    ],
+    [
+      "septicemia",
+      29,
+      "bradycardia"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "bradycardia"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "bradycardia"
+    ],
+    [
+      "septicemia",
+      29,
+      "breech presentation"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "breech presentation"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "breech presentation"
+    ],
+    [
+      "septicemia",
+      29,
+      "cyanosis"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "cyanosis"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "cyanosis"
+    ],
+    [
+      "septicemia",
+      29,
+      "spontaneous rupture of membranes"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "spontaneous rupture of membranes"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "spontaneous rupture of membranes"
+    ],
+    [
+      "septicemia",
+      29,
+      "haemorrhage"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "haemorrhage"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "haemorrhage"
+    ],
+    [
+      "septicemia",
+      29,
+      "unresponsiveness"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "unresponsiveness"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "unresponsiveness"
+    ],
+    [
+      "septicemia",
+      29,
+      "rale"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "rale"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "rale"
+    ],
+    [
+      "septicemia",
+      29,
+      "apyrexial"
+    ],
+    [
+      "systemic  infection",
+      30,
+      "apyrexial"
+    ],
+    [
+      "sepsis (invertebrate)",
+      31,
+      "apyrexial"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "swelling"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "pain"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "ecchymosis"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "shortness of breath"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "pain in lower limb"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "cardiomegaly"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "rale"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "erythema"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "hypotension"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "clonus"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "non-productive cough"
+    ],
+    [
+      "deep  vein thrombosis",
+      32,
+      "redness"
+    ],
+    [
+      "dehydration",
+      33,
+      "fever"
+    ],
+    [
+      "dehydration",
+      33,
+      "diarrhea"
+    ],
+    [
+      "dehydration",
+      33,
+      "vomiting"
+    ],
+    [
+      "dehydration",
+      33,
+      "hypotension"
+    ],
+    [
+      "dehydration",
+      33,
+      "nausea"
+    ],
+    [
+      "dehydration",
+      33,
+      "lightheadedness"
+    ],
+    [
+      "dehydration",
+      33,
+      "unwell"
+    ],
+    [
+      "dehydration",
+      33,
+      "mental status changes"
+    ],
+    [
+      "dehydration",
+      33,
+      "anorexia"
+    ],
+    [
+      "dehydration",
+      33,
+      "asthenia"
+    ],
+    [
+      "dehydration",
+      33,
+      "sensory discomfort"
+    ],
+    [
+      "dehydration",
+      33,
+      "syncope"
+    ],
+    [
+      "dehydration",
+      33,
+      "lethargy"
+    ],
+    [
+      "dehydration",
+      33,
+      "dizziness"
+    ],
+    [
+      "dehydration",
+      33,
+      "syncope",
+      "blackout",
+      "history  of - blackout"
+    ],
+    [
+      "neoplasm",
+      34,
+      "mass of body structure"
+    ],
+    [
+      "neoplasm",
+      34,
+      "lesion"
+    ],
+    [
+      "neoplasm",
+      34,
+      "pain chest"
+    ],
+    [
+      "neoplasm",
+      34,
+      "hematuria"
+    ],
+    [
+      "neoplasm",
+      34,
+      "tumor cell invasion"
+    ],
+    [
+      "neoplasm",
+      34,
+      "pain"
+    ],
+    [
+      "neoplasm",
+      34,
+      "anosmia"
+    ],
+    [
+      "neoplasm",
+      34,
+      "thicken"
+    ],
+    [
+      "neoplasm",
+      34,
+      "metastatic lesion"
+    ],
+    [
+      "neoplasm",
+      34,
+      "food intolerance"
+    ],
+    [
+      "neoplasm",
+      34,
+      "decreased body weight"
+    ],
+    [
+      "neoplasm",
+      34,
+      "night sweat"
+    ],
+    [
+      "neoplasm",
+      34,
+      "hemianopsia homonymous"
+    ],
+    [
+      "neoplasm",
+      34,
+      "satiety early"
+    ],
+    [
+      "neoplasm",
+      34,
+      "pain abdominal"
+    ],
+    [
+      "neoplasm",
+      34,
+      "headache"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "shortness of breath"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "hypoxemia"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "tachypnea"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "hematocrit decreased"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "pain chest"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "dyspnea"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "pleuritic pain"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "neck stiffness"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "yellow sputum"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "productive cough"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "cicatrisation"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "unresponsiveness"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "distress respiratory"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "wheezing"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "apyrexial"
+    ],
+    [
+      "embolism  pulmonary",
+      35,
+      "non-productive cough"
+    ],
+    [
+      "epilepsy",
+      36,
+      "seizure"
+    ],
+    [
+      "epilepsy",
+      36,
+      "hypometabolism"
+    ],
+    [
+      "epilepsy",
+      36,
+      "aura"
+    ],
+    [
+      "epilepsy",
+      36,
+      "muscle twitch"
+    ],
+    [
+      "epilepsy",
+      36,
+      "drowsiness"
+    ],
+    [
+      "epilepsy",
+      36,
+      "tremor"
+    ],
+    [
+      "epilepsy",
+      36,
+      "unresponsiveness"
+    ],
+    [
+      "epilepsy",
+      36,
+      "hemiplegia"
+    ],
+    [
+      "epilepsy",
+      36,
+      "myoclonus"
+    ],
+    [
+      "epilepsy",
+      36,
+      "gurgle"
+    ],
+    [
+      "epilepsy",
+      36,
+      "sleepy"
+    ],
+    [
+      "epilepsy",
+      36,
+      "lethargy"
+    ],
+    [
+      "epilepsy",
+      36,
+      "wheelchair bound"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "shortness of breath"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "orthopnea"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "hypokinesia"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "jugular venous distention"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "palpitation"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "pain chest"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "syncope"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "yellow sputum"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "rale"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "dyspnea"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "dyspnea on exertion"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "left atrial hypertrophy"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "fatigue"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "weight gain"
+    ],
+    [
+      "cardiomyopathy",
+      37,
+      "patient non compliance"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "vomiting"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "orthopnea"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "hyperkalemia"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "oliguria"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "jugular venous distention"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "nausea"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "shortness of breath"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "mental status changes"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "diarrhea"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "asthenia"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "chest tightness"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "malaise"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "chill"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "rale"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "fever"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "pleuritic pain"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "apyrexial"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "guaiac positive"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "swelling"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "catatonia"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "unresponsiveness"
+    ],
+    [
+      "chronic  kidney failure",
+      38,
+      "yellow sputum"
+    ],
+    [
+      "carcinoma",
+      39,
+      "mass of body structure"
+    ],
+    [
+      "carcinoma",
+      39,
+      "pain"
+    ],
+    [
+      "carcinoma",
+      39,
+      "lesion"
+    ],
+    [
+      "carcinoma",
+      39,
+      "tumor cell invasion"
+    ],
+    [
+      "carcinoma",
+      39,
+      "thicken"
+    ],
+    [
+      "carcinoma",
+      39,
+      "decreased body weight"
+    ],
+    [
+      "carcinoma",
+      39,
+      "hoarseness"
+    ],
+    [
+      "carcinoma",
+      39,
+      "general discomfort"
+    ],
+    [
+      "carcinoma",
+      39,
+      "metastatic lesion"
+    ],
+    [
+      "carcinoma",
+      39,
+      "non-productive cough"
+    ],
+    [
+      "carcinoma",
+      39,
+      "constipation"
+    ],
+    [
+      "carcinoma",
+      39,
+      "unhappy"
+    ],
+    [
+      "carcinoma",
+      39,
+      "paresthesia"
+    ],
+    [
+      "carcinoma",
+      39,
+      "gravida 0"
+    ],
+    [
+      "carcinoma",
+      39,
+      "diarrhea"
+    ],
+    [
+      "carcinoma",
+      39,
+      "sore to touch"
+    ],
+    [
+      "carcinoma",
+      39,
+      "heartburn"
+    ],
+    [
+      "carcinoma",
+      39,
+      "nausea"
+    ],
+    [
+      "carcinoma",
+      39,
+      "lung nodule"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "ascites"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "distended abdomen"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "feeling suicidal"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "cough"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "ache"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "macerated skin"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "heavy feeling"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "hallucinations auditory"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "chill"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "asterixis"
+    ],
+    [
+      "hepatitis  C",
+      40,
+      "patient non compliance"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "shortness of breath"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "rest pain"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "angina pectoris"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "unresponsiveness"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "hyperkalemia"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "sinus rhythm"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "labored breathing"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "dyspnea"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "sore to touch"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "anorexia"
+    ],
+    [
+      "peripheral  vascular disease",
+      41,
+      "sleepy"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "suicidal"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "hallucinations auditory"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "feeling suicidal"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "hallucinations visual"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "motor retardation"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "blackout"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "verbal auditory hallucinations"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "feeling hopeless"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "irritable mood"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "agitation"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "tremor"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "catatonia"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "weepiness"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "homelessness"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "sleeplessness"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "withdraw"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "energy increased"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "intoxication"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "worry"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "behavior hyperactive"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "patient non compliance"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "mood depressed"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "terrify"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "nightmare"
+    ],
+    [
+      "psychotic  disorder",
+      42,
+      "consciousness clear"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "pain chest"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "angina pectoris"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "palpitation"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "presence of q wave"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "photopsia"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "sweat",
+      "sweating increased"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "chest discomfort"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "shortness of breath"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "giddy mood"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "hypokinesia"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "hemiplegia"
+    ],
+    [
+      "hyperlipidemia",
+      43,
+      "dizziness"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "feeling suicidal"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "energy increased"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "suicidal"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "irritable mood"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "agitation"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "has religious belief"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "disturbed family"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "hallucinations auditory"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "verbal auditory hallucinations"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "weepiness"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "behavior hyperactive"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "catatonia"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "feeling hopeless"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "worry"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "sleeplessness"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "hypersomnia"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "difficulty"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "hallucinations visual"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "hyperhidrosis disorder"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "mydriasis"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "extrapyramidal sign"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "loose associations"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "intoxication"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "motor retardation"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "homelessness"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "blackout"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "tremor"
+    ],
+    [
+      "bipolar  disorder",
+      44,
+      "exhaustion"
+    ],
+    [
+      "obesity",
+      45,
+      "pain"
+    ],
+    [
+      "obesity",
+      45,
+      "catatonia"
+    ],
+    [
+      "obesity",
+      45,
+      "snore"
+    ],
+    [
+      "obesity",
+      45,
+      "pain chest"
+    ],
+    [
+      "obesity",
+      45,
+      "r wave feature"
+    ],
+    [
+      "obesity",
+      45,
+      "has religious belief"
+    ],
+    [
+      "obesity",
+      45,
+      "shortness of breath"
+    ],
+    [
+      "obesity",
+      45,
+      "fatigue",
+      "tired"
+    ],
+    [
+      "obesity",
+      45,
+      "overweight"
+    ],
+    [
+      "obesity",
+      45,
+      "systolic murmur"
+    ],
+    [
+      "obesity",
+      45,
+      "mood depressed"
+    ],
+    [
+      "obesity",
+      45,
+      "ecchymosis"
+    ],
+    [
+      "ischemia",
+      46,
+      "drowsiness",
+      "sleepy"
+    ],
+    [
+      "ischemia",
+      46,
+      "pain chest"
+    ],
+    [
+      "ischemia",
+      46,
+      "angina pectoris"
+    ],
+    [
+      "ischemia",
+      46,
+      "pressure chest"
+    ],
+    [
+      "ischemia",
+      46,
+      "chest discomfort"
+    ],
+    [
+      "ischemia",
+      46,
+      "shortness of breath"
+    ],
+    [
+      "ischemia",
+      46,
+      "dyspnea"
+    ],
+    [
+      "ischemia",
+      46,
+      "sinus rhythm"
+    ],
+    [
+      "ischemia",
+      46,
+      "bradycardia"
+    ],
+    [
+      "ischemia",
+      46,
+      "sweat",
+      "sweating increased"
+    ],
+    [
+      "ischemia",
+      46,
+      "rale"
+    ],
+    [
+      "ischemia",
+      46,
+      "asymptomatic"
+    ],
+    [
+      "ischemia",
+      46,
+      "anorexia"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "ascites"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "fall"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "splenomegaly"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "pruritus"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "pain abdominal"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "tumor cell invasion"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "distended abdomen"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "lesion"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "hemodynamically stable"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "guaiac positive"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "sore to touch"
+    ],
+    [
+      "cirrhosis",
+      47,
+      "bleeding of vagina"
+    ],
+    [
+      "exanthema",
+      48,
+      "fever"
+    ],
+    [
+      "exanthema",
+      48,
+      "pruritus"
+    ],
+    [
+      "exanthema",
+      48,
+      "macule"
+    ],
+    [
+      "exanthema",
+      48,
+      "lesion"
+    ],
+    [
+      "exanthema",
+      48,
+      "redness"
+    ],
+    [
+      "exanthema",
+      48,
+      "headache"
+    ],
+    [
+      "exanthema",
+      48,
+      "apyrexial"
+    ],
+    [
+      "exanthema",
+      48,
+      "arthralgia"
+    ],
+    [
+      "exanthema",
+      48,
+      "swelling"
+    ],
+    [
+      "exanthema",
+      48,
+      "erythema"
+    ],
+    [
+      "exanthema",
+      48,
+      "photophobia"
+    ],
+    [
+      "exanthema",
+      48,
+      "chill"
+    ],
+    [
+      "exanthema",
+      48,
+      "scratch marks"
+    ],
+    [
+      "exanthema",
+      48,
+      "pain"
+    ],
+    [
+      "exanthema",
+      48,
+      "painful swallowing"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "mental status changes"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "cachexia"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "blackout"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "orthostasis"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "orthopnea"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "night sweat"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "distress respiratory"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "anorexia"
+    ],
+    [
+      "benign  prostatic hypertrophy",
+      49,
+      "dysarthria"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "hyperkalemia"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "hypotension"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "hypocalcemia result"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "oliguria"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "hemodynamically stable"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "asthenia"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "hypothermia, natural"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "diarrhea"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "haemorrhage"
+    ],
+    [
+      "kidney  failure acute",
+      50,
+      "unresponsiveness"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "shortness of breath"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "dyspnea on exertion"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "asymptomatic"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "hypokinesia"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "dyspnea"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "syncope"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "thicken"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "left atrial hypertrophy"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "palpitation"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "fatigue"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "vomiting"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "pain"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "cardiomegaly"
+    ],
+    [
+      "mitral  valve insufficiency",
+      51,
+      "chest discomfort"
+    ],
+    [
+      "arthritis",
+      52,
+      "pain"
+    ],
+    [
+      "arthritis",
+      52,
+      "hemodynamically stable"
+    ],
+    [
+      "arthritis",
+      52,
+      "sleeplessness"
+    ],
+    [
+      "arthritis",
+      52,
+      "asthenia"
+    ],
+    [
+      "arthritis",
+      52,
+      "syncope"
+    ],
+    [
+      "arthritis",
+      52,
+      "swelling"
+    ],
+    [
+      "arthritis",
+      52,
+      "atypia"
+    ],
+    [
+      "arthritis",
+      52,
+      "general unsteadiness"
+    ],
+    [
+      "arthritis",
+      52,
+      "shortness of breath"
+    ],
+    [
+      "arthritis",
+      52,
+      "distended abdomen"
+    ],
+    [
+      "bronchitis",
+      53,
+      "cough"
+    ],
+    [
+      "bronchitis",
+      53,
+      "wheezing"
+    ],
+    [
+      "bronchitis",
+      53,
+      "shortness of breath"
+    ],
+    [
+      "bronchitis",
+      53,
+      "chest tightness"
+    ],
+    [
+      "bronchitis",
+      53,
+      "fever"
+    ],
+    [
+      "bronchitis",
+      53,
+      "throat sore"
+    ],
+    [
+      "bronchitis",
+      53,
+      "productive cough"
+    ],
+    [
+      "bronchitis",
+      53,
+      "hepatosplenomegaly"
+    ],
+    [
+      "bronchitis",
+      53,
+      "night sweat"
+    ],
+    [
+      "bronchitis",
+      53,
+      "haemoptysis"
+    ],
+    [
+      "bronchitis",
+      53,
+      "labored breathing"
+    ],
+    [
+      "bronchitis",
+      53,
+      "snuffle"
+    ],
+    [
+      "bronchitis",
+      53,
+      "hacking cough"
+    ],
+    [
+      "bronchitis",
+      53,
+      "dyspnea"
+    ],
+    [
+      "bronchitis",
+      53,
+      "chill"
+    ],
+    [
+      "bronchitis",
+      53,
+      "stridor"
+    ],
+    [
+      "bronchitis",
+      53,
+      "decreased body weight"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "dysarthria"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "paresis"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "asthenia"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "aphagia"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "seizure"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "speech slurred"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "focal seizures"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "hemiplegia"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "abnormal sensation"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "unresponsiveness"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "stupor"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "drowsiness",
+      "sleepy"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "fremitus"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "Stahli's line"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "stinging sensation"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "paralyse"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "clonus"
+    ],
+    [
+      "hemiparesis",
+      54,
+      "facial paresis"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "prostatism"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "fall"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "hirsutism"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "sniffle"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "distended  abdomen"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "vertigo"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "numbness  of hand"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "bradykinesia"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "pain"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "syncope"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "out  of breath"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "apyrexial"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "urge  incontinence"
+    ],
+    [
+      "osteoporosis",
+      55,
+      "lightheadedness"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "speech slurred"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "dysarthria"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "facial paresis"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "asthenia"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "neck stiffness"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "vertigo"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "numbness"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "lightheadedness"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "extrapyramidal sign"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "Stahli's line"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "vision blurred"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "headache"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "room spinning"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "syncope"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "difficulty"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "rambling speech"
+    ],
+    [
+      "transient  ischemic attack",
+      56,
+      "clumsiness"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "mass of body structure"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "lesion"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "decreased body weight"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "constipation"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "fremitus"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "decreased stool caliber"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "satiety early"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "hematochezia"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "egophony"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "pain"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "cicatrisation",
+      "scar tissue"
+    ],
+    [
+      "adenocarcinoma",
+      57,
+      "pain abdominal"
+    ],
+    [
+      "paranoia",
+      58,
+      "hallucinations auditory"
+    ],
+    [
+      "paranoia",
+      58,
+      "hallucinations visual"
+    ],
+    [
+      "paranoia",
+      58,
+      "agitation"
+    ],
+    [
+      "paranoia",
+      58,
+      "irritable mood"
+    ],
+    [
+      "paranoia",
+      58,
+      "verbal auditory hallucinations"
+    ],
+    [
+      "paranoia",
+      58,
+      "feeling suicidal"
+    ],
+    [
+      "paranoia",
+      58,
+      "suicidal"
+    ],
+    [
+      "paranoia",
+      58,
+      "terrify"
+    ],
+    [
+      "paranoia",
+      58,
+      "neologism"
+    ],
+    [
+      "paranoia",
+      58,
+      "homelessness"
+    ],
+    [
+      "paranoia",
+      58,
+      "energy increased"
+    ],
+    [
+      "paranoia",
+      58,
+      "mood depressed"
+    ],
+    [
+      "paranoia",
+      58,
+      "decompensation"
+    ],
+    [
+      "paranoia",
+      58,
+      "cicatrisation",
+      "scar tissue"
+    ],
+    [
+      "paranoia",
+      58,
+      "blackout"
+    ],
+    [
+      "paranoia",
+      58,
+      "loose associations"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "vomiting"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "pain abdominal"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "nausea"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "pain"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "diarrhea"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "stool color yellow"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "rigor - temperature-associated observation"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "apyrexial"
+    ],
+    [
+      "pancreatitis",
+      59,
+      "sore to touch"
+    ],
+    [
+      "incontinence",
+      60,
+      "paraparesis"
+    ],
+    [
+      "incontinence",
+      60,
+      "seizure"
+    ],
+    [
+      "incontinence",
+      60,
+      "asthenia"
+    ],
+    [
+      "incontinence",
+      60,
+      "urge incontinence"
+    ],
+    [
+      "incontinence",
+      60,
+      "unconscious state"
+    ],
+    [
+      "incontinence",
+      60,
+      "aura"
+    ],
+    [
+      "incontinence",
+      60,
+      "moody"
+    ],
+    [
+      "incontinence",
+      60,
+      "fear of falling"
+    ],
+    [
+      "incontinence",
+      60,
+      "tremor"
+    ],
+    [
+      "incontinence",
+      60,
+      "spasm"
+    ],
+    [
+      "incontinence",
+      60,
+      "unhappy"
+    ],
+    [
+      "incontinence",
+      60,
+      "syncope"
+    ],
+    [
+      "incontinence",
+      60,
+      "fall"
+    ],
+    [
+      "incontinence",
+      60,
+      "stiffness"
+    ],
+    [
+      "incontinence",
+      60,
+      "unresponsiveness"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "orthopnea"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "shortness of breath"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "dyspnea on exertion"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "jugular venous distention"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "rale"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "pain chest"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "palpitation"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "sweat",
+      "sweating increased"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "weight gain"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "cough"
+    ],
+    [
+      "paroxysmal  dyspnea",
+      61,
+      "dyspnea"
+    ],
+    [
+      "hernia",
+      62,
+      "pain abdominal"
+    ],
+    [
+      "hernia",
+      62,
+      "pain"
+    ],
+    [
+      "hernia",
+      62,
+      "hyperventilation"
+    ],
+    [
+      "hernia",
+      62,
+      "excruciating pain"
+    ],
+    [
+      "hernia",
+      62,
+      "gag"
+    ],
+    [
+      "hernia",
+      62,
+      "nausea"
+    ],
+    [
+      "hernia",
+      62,
+      "posturing"
+    ],
+    [
+      "hernia",
+      62,
+      "hemiplegia"
+    ],
+    [
+      "hernia",
+      62,
+      "sore to touch"
+    ],
+    [
+      "hernia",
+      62,
+      "haemorrhage"
+    ],
+    [
+      "hernia",
+      62,
+      "apyrexial"
+    ],
+    [
+      "hernia",
+      62,
+      "food intolerance"
+    ],
+    [
+      "hernia",
+      62,
+      "pulse absent"
+    ],
+    [
+      "hernia",
+      62,
+      "asthenia"
+    ],
+    [
+      "hernia",
+      62,
+      "mass of body structure"
+    ],
+    [
+      "hernia",
+      62,
+      "thicken"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "hematuria"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "hematuria"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "dysesthesia"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "dysesthesia"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "asthenia"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "asthenia"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "polymyalgia"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "polymyalgia"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "passed stones"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "passed stones"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "pleuritic pain"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "pleuritic pain"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "guaiac positive"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "guaiac positive"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "rale"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "rale"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "breath sounds decreased"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "breath sounds decreased"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "urge incontinence"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "urge incontinence"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "dysuria"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "dysuria"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "diarrhea"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "diarrhea"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "vertigo"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "vertigo"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "qt interval prolonged"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "qt interval prolonged"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "ataxia"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "ataxia"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "paresis"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "paresis"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "hemianopsia homonymous"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "hemianopsia homonymous"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "tumor cell invasion"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "tumor cell invasion"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "hemodynamically stable"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "hemodynamically stable"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "mass of body structure"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "mass of body structure"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "rhonchus"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "rhonchus"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "orthostasis"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "orthostasis"
+    ],
+    [
+      "malignant  neoplasm of prostate",
+      63,
+      "decreased body weight"
+    ],
+    [
+      "carcinoma prostate",
+      64,
+      "decreased body weight"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "urgency of micturition"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "shortness of breath"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "rale"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "tachypnea"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "orthopnea"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "Heberden's node"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "jugular venous distention"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "dyspnea"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "sweat",
+      "sweating increased"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "patient non compliance"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "chest discomfort"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "hyperkalemia"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "sinus rhythm"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "pain chest"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "hypotension"
+    ],
+    [
+      "edema  pulmonary",
+      65,
+      "wheezing"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "pain"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "mass of body structure"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "night sweat"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "splenomegaly"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "lesion"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "chill"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "decreased body weight"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "swelling"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "fever"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "hyperacusis"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "fremitus"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "non-productive cough"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "egophony"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "redness"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "hepatomegaly"
+    ],
+    [
+      "lymphatic  diseases",
+      66,
+      "fatigue"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "dyspnea on exertion"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "syncope"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "chest discomfort"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "systolic murmur"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "sciatica"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "angina pectoris"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "pain chest"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "frothy sputum"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "bradycardia"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "shortness of breath"
+    ],
+    [
+      "stenosis  aortic valve",
+      67,
+      "pain"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "mass in breast"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "mass in breast"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "mass of body structure"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "mass of body structure"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "paresthesia"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "paresthesia"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "retropulsion"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "retropulsion"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "erythema"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "erythema"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "difficulty"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "difficulty"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "lesion"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "lesion"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "estrogen use"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "estrogen use"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "burning sensation"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "burning sensation"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "dyspnea"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "dyspnea"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "swelling"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "swelling"
+    ],
+    [
+      "malignant  neoplasm of breast",
+      68,
+      "formication"
+    ],
+    [
+      "carcinoma breast",
+      69,
+      "formication"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "hallucinations auditory"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "hypersomnolence"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "irritable mood"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "verbal auditory hallucinations"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "patient non compliance"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "agitation"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "suicidal"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "worry"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "hallucinations visual"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "underweight",
+      "underweight"
+    ],
+    [
+      "schizophrenia",
+      70,
+      "homelessness"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "pain abdominal"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "abscess bacterial"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "dullness"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "red blotches"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "diarrhea"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "sore to touch"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "dysuria"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "pain"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "vomiting"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "sinus rhythm"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "colic abdominal"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "apyrexial"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "abdominal tenderness"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "fever"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "unsteady gait"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "thicken"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "urgency of micturition"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "anorexia"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "monoclonal"
+    ],
+    [
+      "diverticulitis",
+      71,
+      "constipation"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "rale"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "jugular venous distention"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "hyperkalemia"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "orthopnea"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "shortness of breath"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "drowsiness",
+      "sleepy"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "weight gain"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "hypokalemia"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "hypotension"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "swelling"
+    ],
+    [
+      "overload  fluid",
+      72,
+      "distended abdomen"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "pain abdominal"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "paraparesis"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "nausea"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "vomiting"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "polymyalgia"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "out of breath"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "pain chest"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "hemiplegia"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "gurgle"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "hunger"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "apyrexial"
+    ],
+    [
+      "ulcer  peptic",
+      73,
+      "nervousness"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "pain"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "redness"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "prostate tender"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "fever"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "difficulty passing urine"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "sore to touch"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "swelling"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "apyrexial"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "erythema"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "abscess bacterial"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "pain foot"
+    ],
+    [
+      "osteomyelitis",
+      74,
+      "urinary hesitation"
+    ],
+    [
+      "gastritis",
+      75,
+      "heme positive"
+    ],
+    [
+      "gastritis",
+      75,
+      "pain abdominal"
+    ],
+    [
+      "gastritis",
+      75,
+      "vomiting"
+    ],
+    [
+      "gastritis",
+      75,
+      "disequilibrium"
+    ],
+    [
+      "gastritis",
+      75,
+      "nausea"
+    ],
+    [
+      "gastritis",
+      75,
+      "intoxication"
+    ],
+    [
+      "gastritis",
+      75,
+      "haemorrhage"
+    ],
+    [
+      "gastritis",
+      75,
+      "guaiac positive"
+    ],
+    [
+      "gastritis",
+      75,
+      "pain"
+    ],
+    [
+      "gastritis",
+      75,
+      "decreased body weight"
+    ],
+    [
+      "gastritis",
+      75,
+      "sore to touch"
+    ],
+    [
+      "gastritis",
+      75,
+      "dizziness"
+    ],
+    [
+      "bacteremia",
+      76,
+      "fever"
+    ],
+    [
+      "bacteremia",
+      76,
+      "chill"
+    ],
+    [
+      "bacteremia",
+      76,
+      "flushing"
+    ],
+    [
+      "bacteremia",
+      76,
+      "unresponsiveness"
+    ],
+    [
+      "bacteremia",
+      76,
+      "indifferent mood"
+    ],
+    [
+      "bacteremia",
+      76,
+      "urinoma"
+    ],
+    [
+      "bacteremia",
+      76,
+      "vomiting"
+    ],
+    [
+      "bacteremia",
+      76,
+      "distended abdomen"
+    ],
+    [
+      "bacteremia",
+      76,
+      "hypoalbuminemia"
+    ],
+    [
+      "bacteremia",
+      76,
+      "pustule"
+    ],
+    [
+      "bacteremia",
+      76,
+      "prostatism"
+    ],
+    [
+      "bacteremia",
+      76,
+      "diarrhea"
+    ],
+    [
+      "bacteremia",
+      76,
+      "abdominal tenderness"
+    ],
+    [
+      "bacteremia",
+      76,
+      "pleuritic pain"
+    ],
+    [
+      "bacteremia",
+      76,
+      "decreased translucency"
+    ],
+    [
+      "bacteremia",
+      76,
+      "pallor"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "orthopnea"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "oliguria"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "slowing of urinary stream"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "extreme exhaustion"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "unresponsiveness"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "hypotension"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "enuresis"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "shortness of breath"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "haemorrhage"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "prostatism"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "no status change"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "bedridden",
+      "bedridden"
+    ],
+    [
+      "failure  kidney",
+      77,
+      "fatigue"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "breakthrough pain"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "pain back"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "pain"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "shortness of breath"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "snuffle"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "pain chest"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "pain abdominal"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "hepatosplenomegaly"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "green sputum"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "apyrexial"
+    ],
+    [
+      "sickle  cell anemia",
+      78,
+      "headache"
+    ],
+    [
+      "failure  heart",
+      79,
+      "orthopnea"
+    ],
+    [
+      "failure  heart",
+      79,
+      "fatigue"
+    ],
+    [
+      "failure  heart",
+      79,
+      "dyspnea on exertion"
+    ],
+    [
+      "failure  heart",
+      79,
+      "dyspnea"
+    ],
+    [
+      "failure  heart",
+      79,
+      "shortness of breath"
+    ],
+    [
+      "failure  heart",
+      79,
+      "pansystolic murmur"
+    ],
+    [
+      "failure  heart",
+      79,
+      "jugular venous distention"
+    ],
+    [
+      "failure  heart",
+      79,
+      "systolic ejection murmur"
+    ],
+    [
+      "failure  heart",
+      79,
+      "hypotension"
+    ],
+    [
+      "failure  heart",
+      79,
+      "angina pectoris"
+    ],
+    [
+      "failure  heart",
+      79,
+      "hypokinesia"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "cough"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "throat sore"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "wheezing"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "shortness of breath"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "labored breathing"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "fever"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "stuffy nose"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "non-productive cough"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "snuffle"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "indifferent mood"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "egophony"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "barking cough"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "polymyalgia"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "pleuritic pain"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "night sweat"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "dyspnea"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "productive cough"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "decreased translucency"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "rhonchus"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "rapid shallow breathing"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "apyrexial"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "noisy respiration"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "nasal discharge present"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "emphysematous change"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "frail"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "cystic lesion"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "symptom aggravating factors"
+    ],
+    [
+      "upper  respiratory infection",
+      80,
+      "hemodynamically stable"
+    ],
+    [
+      "hepatitis",
+      81,
+      "ascites"
+    ],
+    [
+      "hepatitis",
+      81,
+      "spontaneous rupture of membranes"
+    ],
+    [
+      "hepatitis",
+      81,
+      "tachypnea"
+    ],
+    [
+      "hepatitis",
+      81,
+      "pain abdominal"
+    ],
+    [
+      "hepatitis",
+      81,
+      "pruritus"
+    ],
+    [
+      "hepatitis",
+      81,
+      "anorexia"
+    ],
+    [
+      "hepatitis",
+      81,
+      "transaminitis"
+    ],
+    [
+      "hepatitis",
+      81,
+      "projectile vomiting"
+    ],
+    [
+      "hepatitis",
+      81,
+      "chill"
+    ],
+    [
+      "hepatitis",
+      81,
+      "distress respiratory"
+    ],
+    [
+      "hepatitis",
+      81,
+      "fever"
+    ],
+    [
+      "hepatitis",
+      81,
+      "vomiting"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "shortness of breath"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "Stahli's line"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "heavy legs"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "breath sounds decreased"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "neck stiffness"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "dyspnea on exertion"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "cyanosis"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "hypotension"
+    ],
+    [
+      "hypertension  pulmonary",
+      82,
+      "left atrial hypertrophy"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "paresthesia"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "titubation"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "dysarthria"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "painful swallowing"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "hoarseness"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "stridor"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "spasm"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "asthenia"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "dysdiadochokinesia"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "ataxia"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "achalasia"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "decreased body weight"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "stiffness"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "lesion"
+    ],
+    [
+      "deglutition  disorder",
+      83,
+      "side pain"
+    ],
+    [
+      "gout",
+      84,
+      "hot flush"
+    ],
+    [
+      "gout",
+      84,
+      "pain"
+    ],
+    [
+      "gout",
+      84,
+      "redness"
+    ],
+    [
+      "gout",
+      84,
+      "swelling"
+    ],
+    [
+      "gout",
+      84,
+      "erythema"
+    ],
+    [
+      "gout",
+      84,
+      "emphysematous change"
+    ],
+    [
+      "gout",
+      84,
+      "sore to touch"
+    ],
+    [
+      "gout",
+      84,
+      "hypokinesia"
+    ],
+    [
+      "gout",
+      84,
+      "ascites"
+    ],
+    [
+      "gout",
+      84,
+      "patient non compliance"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "ecchymosis"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "monocytosis"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "posterior rhinorrhea"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "haemorrhage"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "tachypnea"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "fever"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "pruritus"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "hypotension"
+    ],
+    [
+      "thrombocytopaenia",
+      85,
+      "fatigue"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "unresponsiveness"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "hypothermia, natural"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "incoherent"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "qt interval prolonged"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "lameness",
+      "claudication"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "unconscious state"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "clammy skin"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "polyuria"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "distress respiratory"
+    ],
+    [
+      "hypoglycemia",
+      86,
+      "hypotension"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "mediastinal shift"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "fever"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "clonus"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "mental status changes"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "decreased translucency"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "unresponsiveness"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "extreme exhaustion"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "stupor"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "seizure"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "transaminitis"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "hemiplegia"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "cough"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "gurgle"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "pain"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "diarrhea"
+    ],
+    [
+      "pneumonia  aspiration",
+      87,
+      "pain abdominal"
+    ],
+    [
+      "colitis",
+      88,
+      "fever"
+    ],
+    [
+      "colitis",
+      88,
+      "thicken"
+    ],
+    [
+      "colitis",
+      88,
+      "green sputum"
+    ],
+    [
+      "colitis",
+      88,
+      "vomiting"
+    ],
+    [
+      "colitis",
+      88,
+      "nausea and vomiting"
+    ],
+    [
+      "colitis",
+      88,
+      "awakening early"
+    ],
+    [
+      "colitis",
+      88,
+      "pain"
+    ],
+    [
+      "colitis",
+      88,
+      "nausea"
+    ],
+    [
+      "colitis",
+      88,
+      "chill"
+    ],
+    [
+      "colitis",
+      88,
+      "tenesmus"
+    ],
+    [
+      "colitis",
+      88,
+      "urge incontinence"
+    ],
+    [
+      "colitis",
+      88,
+      "pain abdominal"
+    ],
+    [
+      "colitis",
+      88,
+      "hemodynamically stable"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "fecaluria"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "constipation"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "abscess bacterial"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "heme positive"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "lightheadedness"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "diarrhea"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "haemorrhage"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "pain"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "projectile vomiting"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "pneumatouria"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "cystic lesion"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "anorexia"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "nausea"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "feeling suicidal"
+    ],
+    [
+      "diverticulosis",
+      89,
+      "feeling hopeless"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "hallucinations auditory"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "sleeplessness"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "suicidal"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "motor retardation"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "weepiness"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "unable to concentrate"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "todd paralysis"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "worry"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "fatigue"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "tremor"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "alcoholic withdrawal symptoms"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "agitation"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "unresponsiveness"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "blackout"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "withdraw"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "difficulty"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "irritable mood"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "sensory discomfort"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "drowsiness"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "formication"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "unconscious state"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "fever"
+    ],
+    [
+      "suicide  attempt",
+      90,
+      "cough"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "yellow sputum"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "cachexia"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "chill"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "decreased body weight"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "productive cough"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "myalgia"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "diarrhea"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "neck stiffness"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "hacking cough"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "dyspareunia"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "hypokalemia"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "dyspnea on exertion"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "poor dentition"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "transaminitis"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "non-productive cough"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "headache"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "floppy"
+    ],
+    [
+      "Pneumocystis  carinii pneumonia",
+      91,
+      "spontaneous rupture of membranes"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "inappropriate affect"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "tachypnea"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "yellow sputum"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "projectile vomiting"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "poor feeding"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "pain abdominal"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "abdominal tenderness"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "wheelchair bound"
+    ],
+    [
+      "hepatitis  B",
+      92,
+      "moan"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "achalasia"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "fall"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "stiffness"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "withdraw"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "agitation"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "hemiplegia"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "difficulty"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "unresponsiveness"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "syncope"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "facial paresis"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "orthostasis"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "worry"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "drowsiness",
+      "sleepy"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "hematuria"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "tremor"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "night sweat"
+    ],
+    [
+      "parkinson  disease",
+      93,
+      "mass of body structure"
+    ],
+    [
+      "lymphoma",
+      94,
+      "lesion"
+    ],
+    [
+      "lymphoma",
+      94,
+      "fever"
+    ],
+    [
+      "lymphoma",
+      94,
+      "welt"
+    ],
+    [
+      "lymphoma",
+      94,
+      "transaminitis"
+    ],
+    [
+      "lymphoma",
+      94,
+      "decreased body weight"
+    ],
+    [
+      "lymphoma",
+      94,
+      "ataxia"
+    ],
+    [
+      "lymphoma",
+      94,
+      "tinnitus"
+    ],
+    [
+      "lymphoma",
+      94,
+      "hydropneumothorax"
+    ],
+    [
+      "lymphoma",
+      94,
+      "superimposition"
+    ],
+    [
+      "lymphoma",
+      94,
+      "haemoptysis"
+    ],
+    [
+      "lymphoma",
+      94,
+      "fatigue",
+      "tired"
+    ],
+    [
+      "lymphoma",
+      94,
+      "polydypsia"
+    ],
+    [
+      "lymphoma",
+      94,
+      "difficulty passing urine"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "sore to touch"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "pruritus"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "feeling strange"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "pustule"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "cushingoid facies",
+      "cushingoid habitus"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "decreased body weight"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "mood depressed"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "estrogen use"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "wheezing"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "ascites"
+    ],
+    [
+      "hyperglycemia",
+      95,
+      "seizure"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "uncoordination"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "asterixis"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "haemorrhage"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "drowsiness",
+      "sleepy"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "absences finding"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "posturing"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "aura"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "tonic seizures"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "debilitation"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "consciousness clear"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "unresponsiveness"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "thicken"
+    ],
+    [
+      "encephalopathy",
+      96,
+      "hypokinesia"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "shortness of breath"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "pain"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "vomiting"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "nausea"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "bradycardia"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "pain abdominal"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "fever"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "cicatrisation"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "mediastinal shift"
+    ],
+    [
+      "tricuspid  valve insufficiency",
+      97,
+      "impaired cognition"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "drool"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "agitation"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "nightmare"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "rhonchus"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "consciousness clear"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "pin-point pupils"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "bedridden",
+      "bedridden"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "frail"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "tremor resting"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "hyperkalemia"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "facial paresis"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "groggy"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "muscle twitch"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "wheelchair bound"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "tremor"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "cough"
+    ],
+    [
+      "Alzheimer's  disease",
+      98,
+      "fever"
+    ],
+    [
+      "candidiasis",
+      99,
+      "diarrhea"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "diarrhea"
+    ],
+    [
+      "candidiasis",
+      99,
+      "throat sore"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "throat sore"
+    ],
+    [
+      "candidiasis",
+      99,
+      "decreased body weight"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "decreased body weight"
+    ],
+    [
+      "candidiasis",
+      99,
+      "chill"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "chill"
+    ],
+    [
+      "candidiasis",
+      99,
+      "headache"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "headache"
+    ],
+    [
+      "candidiasis",
+      99,
+      "abdominal tenderness"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "abdominal tenderness"
+    ],
+    [
+      "candidiasis",
+      99,
+      "patient non compliance"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "patient non compliance"
+    ],
+    [
+      "candidiasis",
+      99,
+      "photophobia"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "photophobia"
+    ],
+    [
+      "candidiasis",
+      99,
+      "night sweat"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "night sweat"
+    ],
+    [
+      "candidiasis",
+      99,
+      "painful swallowing"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "painful swallowing"
+    ],
+    [
+      "candidiasis",
+      99,
+      "poor dentition"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "poor dentition"
+    ],
+    [
+      "candidiasis",
+      99,
+      "transaminitis"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "transaminitis"
+    ],
+    [
+      "candidiasis",
+      99,
+      "non-productive cough"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "non-productive cough"
+    ],
+    [
+      "candidiasis",
+      99,
+      "adverse reaction",
+      "adverse effect"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "adverse reaction",
+      "adverse effect"
+    ],
+    [
+      "candidiasis",
+      99,
+      "abdominal bloating"
+    ],
+    [
+      "oral  candidiasis",
+      100,
+      "abdominal bloating"
+    ],
+    [
+      "neuropathy",
+      101,
+      "asthenia"
+    ],
+    [
+      "neuropathy",
+      101,
+      "numbness"
+    ],
+    [
+      "neuropathy",
+      101,
+      "nausea and vomiting"
+    ],
+    [
+      "neuropathy",
+      101,
+      "awakening early"
+    ],
+    [
+      "neuropathy",
+      101,
+      "hydropneumothorax"
+    ],
+    [
+      "neuropathy",
+      101,
+      "superimposition"
+    ],
+    [
+      "neuropathy",
+      101,
+      "fatigability"
+    ],
+    [
+      "neuropathy",
+      101,
+      "tenesmus"
+    ],
+    [
+      "neuropathy",
+      101,
+      "pain"
+    ],
+    [
+      "neuropathy",
+      101,
+      "slowing of urinary stream"
+    ],
+    [
+      "kidney  disease",
+      102,
+      "shortness of breath"
+    ],
+    [
+      "kidney  disease",
+      102,
+      "hyperkalemia"
+    ],
+    [
+      "kidney  disease",
+      102,
+      "pain chest"
+    ],
+    [
+      "kidney  disease",
+      102,
+      "fever"
+    ],
+    [
+      "kidney  disease",
+      102,
+      "gravida 0"
+    ],
+    [
+      "kidney  disease",
+      102,
+      "bleeding of vagina"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "para 2"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "haemorrhage"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "abortion"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "intermenstrual heavy bleeding"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "muscle hypotonia",
+      "hypotonic"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "previous pregnancies 2"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "shortness of breath"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "fever"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "heartburn"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "primigravida"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "abnormally  hard consistency"
+    ],
+    [
+      "fibroid  tumor",
+      103,
+      "proteinemia"
+    ],
+    [
+      "glaucoma",
+      104,
+      "fall"
+    ],
+    [
+      "glaucoma",
+      104,
+      "distended  abdomen"
+    ],
+    [
+      "glaucoma",
+      104,
+      "unsteady  gait"
+    ],
+    [
+      "glaucoma",
+      104,
+      "paresthesia"
+    ],
+    [
+      "glaucoma",
+      104,
+      "hyponatremia"
+    ],
+    [
+      "glaucoma",
+      104,
+      "agitation"
+    ],
+    [
+      "glaucoma",
+      104,
+      "unconscious  state"
+    ],
+    [
+      "glaucoma",
+      104,
+      "burning  sensation"
+    ],
+    [
+      "glaucoma",
+      104,
+      "lesion"
+    ],
+    [
+      "glaucoma",
+      104,
+      "mass of body structure"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "thicken"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "tumor cell invasion"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "metastatic lesion"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "pain neck"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "lung nodule"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "pain"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "pain abdominal"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "food intolerance"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "mass of body structure"
+    ],
+    [
+      "neoplasm  metastasis",
+      105,
+      "atypia"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "lesion"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "lesion"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "prostatism"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "prostatism"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "constipation"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "constipation"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "general discomfort"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "general discomfort"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "diarrhea"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "diarrhea"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "pain abdominal"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "pain abdominal"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "urinary hesitation"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "urinary hesitation"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "dizzy spells"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "dizzy spells"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "shooting pain"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "shooting pain"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "bradycardia"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "bradycardia"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "vomiting"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "vomiting"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "systolic ejection murmur"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "systolic ejection murmur"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "nausea"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "nausea"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "hyperemesis"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "hyperemesis"
+    ],
+    [
+      "malignant  tumor of colon",
+      106,
+      "polydypsia"
+    ],
+    [
+      "carcinoma colon",
+      107,
+      "polydypsia"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "polyuria"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "vomiting"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "nausea"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "pain abdominal"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "milky"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "feeling strange"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "gurgle"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "nervousness"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "abdominal tenderness"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "regurgitates after swallowing"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "vision blurred"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "urinary hesitation"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "diarrhea"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "seizure"
+    ],
+    [
+      "ketoacidosis  diabetic",
+      108,
+      "aura"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "drowsiness"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "drowsiness"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "lip smacking"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "lip smacking"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "myoclonus"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "myoclonus"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "tremor"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "tremor"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "phonophobia"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "phonophobia"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "rolling of eyes"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "rolling of eyes"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "sleepy"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "sleepy"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "hirsutism"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "hirsutism"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "moody"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "moody"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "muscle twitch"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "muscle twitch"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "unresponsiveness"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "unresponsiveness"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "headache"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "headache"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "ambidexterity"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "ambidexterity"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "absences finding"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "absences finding"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "spasm"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "spasm"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "decreased body weight"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "decreased body weight"
+    ],
+    [
+      "tonic-clonic  epilepsy",
+      109,
+      "tumor cell invasion"
+    ],
+    [
+      "tonic-clonic seizures",
+      110,
+      "tumor cell invasion"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "pulsus paradoxus"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "gravida 10"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "mass of body structure"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "lesion"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "heartburn"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "night sweat"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "thicken"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "chill"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "decreased translucency"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "pain abdominal"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "dullness"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "food intolerance"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "distress respiratory"
+    ],
+    [
+      "malignant  neoplasms",
+      22,
+      "hypotension"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "hemiplegia"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "snore"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "unresponsiveness"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "productive cough"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "dyspnea"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "tachypnea"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "hyperkalemia"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "hypokinesia"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "sinus rhythm"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "general unsteadiness"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "bruit"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "consciousness clear"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "shortness of breath"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "lesion"
+    ],
+    [
+      "respiratory  failure",
+      111,
+      "redness"
+    ],
+    [
+      "melanoma",
+      112,
+      "mass of body structure"
+    ],
+    [
+      "melanoma",
+      112,
+      "paraparesis"
+    ],
+    [
+      "melanoma",
+      112,
+      "fever"
+    ],
+    [
+      "melanoma",
+      112,
+      "gravida 0"
+    ],
+    [
+      "melanoma",
+      112,
+      "pain"
+    ],
+    [
+      "melanoma",
+      112,
+      "pruritus"
+    ],
+    [
+      "melanoma",
+      112,
+      "mass in breast"
+    ],
+    [
+      "melanoma",
+      112,
+      "vomiting"
+    ],
+    [
+      "melanoma",
+      112,
+      "diarrhea"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "pain abdominal"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "breath-holding spell"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "nausea"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "decreased body weight"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "sore to touch"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "scleral icterus"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "fever"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "myalgia"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "hyponatremia"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "retch"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "mass of body structure"
+    ],
+    [
+      "gastroenteritis",
+      113,
+      "decreased body weight"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "lesion"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "lesion"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "cough"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "cough"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "lung nodule"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "lung nodule"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "shortness of breath"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "shortness of breath"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "haemoptysis"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "haemoptysis"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "debilitation"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "debilitation"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "gurgle"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "gurgle"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "ache"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "ache"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "rale"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "rale"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "night sweat"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "night sweat"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "decreased translucency"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "decreased translucency"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "asthenia"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "asthenia"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "metastatic lesion"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "metastatic lesion"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "agitation"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "agitation"
+    ],
+    [
+      "malignant  neoplasm of lung",
+      114,
+      "irritable mood"
+    ],
+    [
+      "carcinoma of lung",
+      115,
+      "irritable mood"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "energy increased"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "suicidal"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "hypersomnia"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "feeling suicidal"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "blanch"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "hallucinations auditory"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "hallucinations visual"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "elation"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "verbal auditory hallucinations"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "feeling hopeless"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "difficulty"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "decompensation"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "verbally abusive behavior"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "suicidal"
+    ],
+    [
+      "manic  disorder",
+      116,
+      "feeling suicidal"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "nightmare"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "feeling hopeless"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "transsexual"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "hallucinations auditory"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "irritable mood"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "sleeplessness"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "agitation"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "weepiness"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "mood depressed"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "scratch marks"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "nausea and vomiting"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "extreme exhaustion"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "side pain"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "worry"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "enuresis"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "homelessness"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "nervousness"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "ascites"
+    ],
+    [
+      "personality  disorder",
+      117,
+      "pruritus"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "mass of body structure"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "splenomegaly"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "lesion"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "paresis"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "tumor cell invasion"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "room spinning"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "haemorrhage"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "thicken"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "indifferent mood"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "cachexia"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "hypothermia, natural"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "pain abdominal"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "hepatomegaly"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "hematocrit decreased"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "stupor"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "decreased body weight"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "shortness of breath"
+    ],
+    [
+      "primary  carcinoma of the liver cells",
+      118,
+      "cough"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "behavior showing increased motor activity"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "scar tissue"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "dyspnea on exertion"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "coordination abnormal"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "myalgia"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "hypercapnia"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "clammy skin"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "has religious belief"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "room spinning"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "moan"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "night sweat"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "cachexia"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "symptom aggravating factors"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "dyspnea"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "rale"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "flushing"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "painful swallowing"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "arthralgia"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "choke"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "tenesmus"
+    ],
+    [
+      "emphysema  pulmonary",
+      119,
+      "constipation"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "haemorrhage"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "bowel sounds decreased"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "decreased stool caliber"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "nausea and vomiting"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "hunger"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "diarrhea"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "dizziness"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "hyponatremia"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "clonus"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "pain"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "achalasia"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "burning sensation"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "guaiac positive"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "numbness of hand"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "wheezing"
+    ],
+    [
+      "hemorrhoids",
+      120,
+      "cough"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "shortness of breath"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "scar tissue"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "apyrexial"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "no known drug allergies"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "pain"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "productive cough"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "throat sore"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "dyspnea"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "chest tightness"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "hypoxemia"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "tachypnea"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "sensory discomfort"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "fever"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "vomiting"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "rhonchus"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "hemiplegia"
+    ],
+    [
+      "spasm  bronchial",
+      121,
+      "fremitus"
+    ],
+    [
+      "aphasia",
+      122,
+      "clonus"
+    ],
+    [
+      "aphasia",
+      122,
+      "egophony"
+    ],
+    [
+      "aphasia",
+      122,
+      "facial paresis"
+    ],
+    [
+      "aphasia",
+      122,
+      "aphagia"
+    ],
+    [
+      "aphasia",
+      122,
+      "muscle twitch"
+    ],
+    [
+      "aphasia",
+      122,
+      "paralyse"
+    ],
+    [
+      "aphasia",
+      122,
+      "low back pain"
+    ],
+    [
+      "aphasia",
+      122,
+      "charleyhorse"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "out of breath"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "sedentary"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "angina pectoris"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "cough"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "unhappy"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "labored breathing"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "hypothermia, natural"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "dyspnea"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "hematocrit decreased"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "wheezing"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "hypoxemia"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "renal angle tenderness"
+    ],
+    [
+      "obesity  morbid",
+      123,
+      "feels hot/feverish"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "fever"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "pain"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "urgency of micturition"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "hematuria"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "vomiting"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "chill"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "diarrhea"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "nausea"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "pain abdominal"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "myalgia"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "fever"
+    ],
+    [
+      "pyelonephritis",
+      124,
+      "chill"
+    ],
+    [
+      "endocarditis",
+      125,
+      "pleuritic pain"
+    ],
+    [
+      "endocarditis",
+      125,
+      "thicken"
+    ],
+    [
+      "endocarditis",
+      125,
+      "myalgia"
+    ],
+    [
+      "endocarditis",
+      125,
+      "apyrexial"
+    ],
+    [
+      "endocarditis",
+      125,
+      "night sweat"
+    ],
+    [
+      "endocarditis",
+      125,
+      "flare"
+    ],
+    [
+      "endocarditis",
+      125,
+      "shortness of breath"
+    ],
+    [
+      "endocarditis",
+      125,
+      "orthopnea"
+    ],
+    [
+      "endocarditis",
+      125,
+      "abscess bacterial"
+    ],
+    [
+      "endocarditis",
+      125,
+      "hypotension"
+    ],
+    [
+      "endocarditis",
+      125,
+      "cough"
+    ],
+    [
+      "endocarditis",
+      125,
+      "metastatic lesion"
+    ],
+    [
+      "endocarditis",
+      125,
+      "breath sounds decreased"
+    ],
+    [
+      "endocarditis",
+      125,
+      "decreased body weight"
+    ],
+    [
+      "endocarditis",
+      125,
+      "decreased body weight"
+    ],
+    [
+      "endocarditis",
+      125,
+      "pulsus paradoxus"
+    ],
+    [
+      "endocarditis",
+      125,
+      "hypokinesia"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "pericardial friction rub"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "pericardial friction rub"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "dyspnea"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "dyspnea"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "shortness of breath"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "shortness of breath"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "hemodynamically stable"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "hemodynamically stable"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "cardiomegaly"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "cardiomegaly"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "hypotension"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "hypotension"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "sputum purulent"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "sputum purulent"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "facial paresis"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "facial paresis"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "pain"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "pain"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "oliguria"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "oliguria"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "blackout"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "blackout"
+    ],
+    [
+      "effusion  pericardial",
+      126,
+      "intoxication"
+    ],
+    [
+      "pericardial effusion body substance",
+      127,
+      "intoxication"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "tremor"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "hallucinations auditory"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "suicidal"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "hoard"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "irritable mood"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "feeling hopeless"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "feeling suicidal"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "neologism"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "seizure"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "homelessness"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "sleeplessness"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "unconscious state"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "panic"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "breath sounds decreased"
+    ],
+    [
+      "chronic  alcoholic intoxication",
+      128,
+      "shortness of breath"
+    ],
+    [
+      "pneumothorax",
+      129,
+      "dyspnea"
+    ],
+    [
+      "pneumothorax",
+      129,
+      "cardiovascular  finding",
+      "cardiovascular event"
+    ],
+    [
+      "pneumothorax",
+      129,
+      "haemoptysis"
+    ],
+    [
+      "pneumothorax",
+      129,
+      "cough"
+    ],
+    [
+      "pneumothorax",
+      129,
+      "hypercapnia"
+    ],
+    [
+      "pneumothorax",
+      129,
+      "soft tissue swelling"
+    ],
+    [
+      "pneumothorax",
+      129,
+      "prostatism"
+    ],
+    [
+      "pneumothorax",
+      129,
+      "agitation"
+    ],
+    [
+      "delirium",
+      130,
+      "unsteady gait"
+    ],
+    [
+      "delirium",
+      130,
+      "withdraw"
+    ],
+    [
+      "delirium",
+      130,
+      "hyponatremia"
+    ],
+    [
+      "delirium",
+      130,
+      "verbally abusive behavior"
+    ],
+    [
+      "delirium",
+      130,
+      "feeling suicidal"
+    ],
+    [
+      "delirium",
+      130,
+      "unresponsiveness"
+    ],
+    [
+      "delirium",
+      130,
+      "worry"
+    ],
+    [
+      "delirium",
+      130,
+      "drowsiness",
+      "sleepy"
+    ],
+    [
+      "delirium",
+      130,
+      "hallucinations auditory"
+    ],
+    [
+      "delirium",
+      130,
+      "suicidal"
+    ],
+    [
+      "delirium",
+      130,
+      "fever"
+    ],
+    [
+      "delirium",
+      130,
+      "diarrhea"
+    ],
+    [
+      "neutropenia",
+      131,
+      "transaminitis"
+    ],
+    [
+      "neutropenia",
+      131,
+      "splenomegaly"
+    ],
+    [
+      "neutropenia",
+      131,
+      "night sweat"
+    ],
+    [
+      "neutropenia",
+      131,
+      "apyrexial"
+    ],
+    [
+      "neutropenia",
+      131,
+      "lesion"
+    ],
+    [
+      "neutropenia",
+      131,
+      "snuffle"
+    ],
+    [
+      "neutropenia",
+      131,
+      "chill"
+    ],
+    [
+      "neutropenia",
+      131,
+      "cough"
+    ],
+    [
+      "neutropenia",
+      131,
+      "monoclonal"
+    ],
+    [
+      "neutropenia",
+      131,
+      "hypocalcemia result"
+    ],
+    [
+      "neutropenia",
+      131,
+      "oliguria"
+    ],
+    [
+      "neutropenia",
+      131,
+      "rhd positive"
+    ],
+    [
+      "neutropenia",
+      131,
+      "distress respiratory"
+    ],
+    [
+      "hyperbilirubinemia",
+      132,
+      "cyanosis"
+    ],
+    [
+      "hyperbilirubinemia",
+      132,
+      "tachypnea"
+    ],
+    [
+      "hyperbilirubinemia",
+      132,
+      "para 1"
+    ],
+    [
+      "hyperbilirubinemia",
+      132,
+      "bradycardia"
+    ],
+    [
+      "hyperbilirubinemia",
+      132,
+      "breech presentation"
+    ],
+    [
+      "hyperbilirubinemia",
+      132,
+      "cushingoid facies",
+      "cushingoid habitus"
+    ],
+    [
+      "hyperbilirubinemia",
+      132,
+      "cough"
+    ],
+    [
+      "hyperbilirubinemia",
+      132,
+      "myalgia"
+    ],
+    [
+      "influenza",
+      133,
+      "uncoordination"
+    ],
+    [
+      "influenza",
+      133,
+      "fever"
+    ],
+    [
+      "influenza",
+      133,
+      "pleuritic pain"
+    ],
+    [
+      "influenza",
+      133,
+      "snuffle"
+    ],
+    [
+      "influenza",
+      133,
+      "throat sore"
+    ],
+    [
+      "influenza",
+      133,
+      "malaise"
+    ],
+    [
+      "influenza",
+      133,
+      "debilitation"
+    ],
+    [
+      "influenza",
+      133,
+      "symptom aggravating factors"
+    ],
+    [
+      "influenza",
+      133,
+      "chill"
+    ],
+    [
+      "influenza",
+      133,
+      "scleral icterus"
+    ],
+    [
+      "influenza",
+      133,
+      "nasal flaring"
+    ],
+    [
+      "influenza",
+      133,
+      "dysuria"
+    ],
+    [
+      "influenza",
+      132,
+      "lip smacking"
+    ],
+    [
+      "influenza",
+      133,
+      "headache"
+    ],
+    [
+      "influenza",
+      133,
+      "sneeze"
+    ],
+    [
+      "influenza",
+      133,
+      "snore"
+    ],
+    [
+      "influenza",
+      133,
+      "green sputum"
+    ],
+    [
+      "influenza",
+      133,
+      "shortness of breath"
+    ],
+    [
+      "influenza",
+      133,
+      "distress respiratory"
+    ],
+    [
+      "influenza",
+      133,
+      "blackout"
+    ],
+    [
+      "influenza",
+      133,
+      "extreme exhaustion"
+    ],
+    [
+      "dependence",
+      134,
+      "intoxication"
+    ],
+    [
+      "dependence",
+      134,
+      "tremor"
+    ],
+    [
+      "dependence",
+      134,
+      "agitation"
+    ],
+    [
+      "dependence",
+      134,
+      "suicidal"
+    ],
+    [
+      "dependence",
+      134,
+      "homelessness"
+    ],
+    [
+      "dependence",
+      134,
+      "prostatism"
+    ],
+    [
+      "dependence",
+      134,
+      "lethargy"
+    ],
+    [
+      "dependence",
+      134,
+      "seizure"
+    ],
+    [
+      "dependence",
+      134,
+      "muscle twitch"
+    ],
+    [
+      "dependence",
+      134,
+      "stuffy nose"
+    ],
+    [
+      "dependence",
+      134,
+      "feeling hopeless"
+    ],
+    [
+      "dependence",
+      134,
+      "heavy legs"
+    ],
+    [
+      "dependence",
+      134,
+      "rale"
+    ],
+    [
+      "thrombus",
+      135,
+      "hypokinesia"
+    ],
+    [
+      "thrombus",
+      135,
+      "anorexia"
+    ],
+    [
+      "thrombus",
+      135,
+      "hypertonicity"
+    ],
+    [
+      "thrombus",
+      135,
+      "shortness of breath"
+    ],
+    [
+      "thrombus",
+      135,
+      "hypoalbuminemia"
+    ],
+    [
+      "thrombus",
+      135,
+      "pruritus"
+    ],
+    [
+      "thrombus",
+      135,
+      "sore to touch"
+    ],
+    [
+      "thrombus",
+      135,
+      "hemodynamically stable"
+    ],
+    [
+      "thrombus",
+      135,
+      "facial paresis"
+    ],
+    [
+      "thrombus",
+      135,
+      "vomiting"
+    ],
+    [
+      "thrombus",
+      135,
+      "stool color yellow"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "moan"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "nausea"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "pain abdominal"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "Murphy's sign"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "flatulence"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "colic abdominal"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "pain"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "ascites"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "diarrhea"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "qt interval prolonged"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "cardiovascular  finding",
+      "cardiovascular event"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "groggy"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "sinus rhythm"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "gasping for breath"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "constipation"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "feces in rectum"
+    ],
+    [
+      "cholecystitis",
+      136,
+      "abnormally hard consistency"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "pain abdominal"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "fatigability"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "prodrome"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "vomiting"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "nausea"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "myalgia"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "hyponatremia"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "sore to touch"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "general discomfort"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "dyspnea on exertion"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "asterixis"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "guaiac positive"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "numbness of hand"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "headache"
+    ],
+    [
+      "hernia  hiatal",
+      137,
+      "photophobia"
+    ],
+    [
+      "migraine  disorders",
+      138,
+      "ambidexterity"
+    ],
+    [
+      "migraine  disorders",
+      138,
+      "vomiting"
+    ],
+    [
+      "migraine  disorders",
+      138,
+      "dizziness"
+    ],
+    [
+      "migraine  disorders",
+      138,
+      "numbness"
+    ],
+    [
+      "migraine  disorders",
+      138,
+      "nausea"
+    ],
+    [
+      "migraine  disorders",
+      138,
+      "fever"
+    ],
+    [
+      "migraine  disorders",
+      138,
+      "splenomegaly"
+    ],
+    [
+      "pancytopenia",
+      139,
+      "hypoproteinemia"
+    ],
+    [
+      "pancytopenia",
+      139,
+      "fatigue"
+    ],
+    [
+      "pancytopenia",
+      139,
+      "haemorrhage"
+    ],
+    [
+      "pancytopenia",
+      139,
+      "fatigability"
+    ],
+    [
+      "pancytopenia",
+      139,
+      "cushingoid facies",
+      "cushingoid habitus"
+    ],
+    [
+      "pancytopenia",
+      139,
+      "stool color yellow"
+    ],
+    [
+      "pancytopenia",
+      139,
+      "colic abdominal"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "vomiting"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "vomiting"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "nausea"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "nausea"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "pain abdominal"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "pain abdominal"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "pain"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "pain"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "cushingoid facies",
+      "cushingoid habitus"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "cushingoid facies",
+      "cushingoid habitus"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "ascites"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "ascites"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "thicken"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "thicken"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "sore to touch"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "sore to touch"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "diarrhea"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "diarrhea"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "apyrexial"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "apyrexial"
+    ],
+    [
+      "cholelithiasis",
+      140,
+      "palpitation"
+    ],
+    [
+      "biliary  calculus",
+      141,
+      "palpitation"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "left atrial hypertrophy"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "sweat",
+      "sweating increased"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "alcohol binge episode"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "pressure chest"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "scar tissue"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "cardiovascular  finding",
+      "cardiovascular event"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "orthostasis"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "shortness of breath"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "t wave inverted"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "vomiting"
+    ],
+    [
+      "tachycardia  sinus",
+      142,
+      "pain abdominal"
+    ],
+    [
+      "ileus",
+      143,
+      "abscess bacterial"
+    ],
+    [
+      "ileus",
+      143,
+      "abdomen acute"
+    ],
+    [
+      "ileus",
+      143,
+      "air fluid level"
+    ],
+    [
+      "ileus",
+      143,
+      "catching breath"
+    ],
+    [
+      "ileus",
+      143,
+      "abdominal tenderness"
+    ],
+    [
+      "ileus",
+      143,
+      "nausea"
+    ],
+    [
+      "ileus",
+      143,
+      "sore to touch"
+    ],
+    [
+      "ileus",
+      143,
+      "flatulence"
+    ],
+    [
+      "ileus",
+      143,
+      "diarrhea"
+    ],
+    [
+      "ileus",
+      143,
+      "mass of body structure"
+    ],
+    [
+      "ileus",
+      143,
+      "apyrexial"
+    ],
+    [
+      "ileus",
+      143,
+      "constipation"
+    ],
+    [
+      "ileus",
+      143,
+      "thicken"
+    ],
+    [
+      "ileus",
+      143,
+      "gravida 0"
+    ],
+    [
+      "ileus",
+      143,
+      "pain abdominal"
+    ],
+    [
+      "adhesion",
+      144,
+      "flatulence"
+    ],
+    [
+      "adhesion",
+      144,
+      "pain"
+    ],
+    [
+      "adhesion",
+      144,
+      "large-for-dates fetus"
+    ],
+    [
+      "adhesion",
+      144,
+      "para 1"
+    ],
+    [
+      "adhesion",
+      144,
+      "vomiting"
+    ],
+    [
+      "adhesion",
+      144,
+      "lung nodule"
+    ],
+    [
+      "adhesion",
+      144,
+      "breech presentation"
+    ],
+    [
+      "adhesion",
+      144,
+      "shortness of breath"
+    ],
+    [
+      "adhesion",
+      144,
+      "decreased body weight"
+    ],
+    [
+      "adhesion",
+      144,
+      "immobile"
+    ],
+    [
+      "adhesion",
+      144,
+      "unsteady gait"
+    ],
+    [
+      "adhesion",
+      144,
+      "hallucinations visual"
+    ],
+    [
+      "adhesion",
+      144,
+      "feeling suicidal"
+    ],
+    [
+      "delusion",
+      145,
+      "loose associations"
+    ],
+    [
+      "delusion",
+      145,
+      "giddy mood"
+    ],
+    [
+      "delusion",
+      145,
+      "feeling hopeless"
+    ],
+    [
+      "delusion",
+      145,
+      "agitation"
+    ],
+    [
+      "delusion",
+      145,
+      "hallucinations auditory"
+    ],
+    [
+      "delusion",
+      145,
+      "irritable mood"
+    ],
+    [
+      "delusion",
+      145,
+      "sleeplessness"
+    ],
+    [
+      "delusion",
+      145,
+      "neologism"
+    ],
+    [
+      "delusion",
+      145,
+      "homicidal thoughts"
+    ],
+    [
+      "delusion",
+      145,
+      "disturbed family"
+    ],
+    [
+      "delusion",
+      145,
+      "worry"
+    ],
+    [
+      "delusion",
+      145,
+      "decompensation"
+    ],
+    [
+      "delusion",
+      145,
+      "verbally abusive behavior"
+    ],
+    [
+      "delusion",
+      145,
+      "catatonia"
+    ],
+    [
+      "delusion",
+      145,
+      "suicidal"
+    ],
+    [
+      "delusion",
+      145,
+      "terrify"
+    ],
+    [
+      "delusion",
+      145,
+      "blackout"
+    ],
+    [
+      "delusion",
+      145,
+      "weepiness"
+    ],
+    [
+      "delusion",
+      145,
+      "impaired cognition"
+    ],
+    [
+      "delusion",
+      145,
+      "irritable mood"
+    ],
+    [
+      "delusion",
+      145,
+      "agitation"
+    ],
+    [
+      "affect  labile",
+      146,
+      "extreme exhaustion"
+    ],
+    [
+      "affect  labile",
+      146,
+      "sleeplessness"
+    ],
+    [
+      "affect  labile",
+      146,
+      "enuresis"
+    ],
+    [
+      "affect  labile",
+      146,
+      "patient non compliance"
+    ],
+    [
+      "affect  labile",
+      146,
+      "feeling hopeless"
+    ],
+    [
+      "affect  labile",
+      146,
+      "hallucinations visual"
+    ],
+    [
+      "affect  labile",
+      146,
+      "bedridden",
+      "bedridden"
+    ],
+    [
+      "affect  labile",
+      146,
+      "prostatism"
+    ],
+    [
+      "decubitus  ulcer",
+      147,
+      "systolic murmur"
+    ],
+    [
+      "decubitus  ulcer",
+      147,
+      "frail"
+    ],
+    [
+      "decubitus  ulcer",
+      147,
+      "fever"
+    ]
+  ]
+}
