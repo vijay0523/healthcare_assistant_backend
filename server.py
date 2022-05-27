@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import requests
-from web3 import Web3
+# from web3 import Web3
 import os
 from flask_cors import CORS, cross_origin
 
@@ -201,16 +201,26 @@ labels_symptoms_text = ['hypertensive  disease',
 words = pickle.load(open('words.pkl','rb'))
 labels = pickle.load(open('labels.pkl','rb'))
 
+type = ""
+
 @app.route("/chat", methods=['POST'])
-def chatbot_response():
+def chatbot_response():\
+
+    global type
     print(request.json)
     print(request.json['msg'])
     print(request.form.get('msg'))
     msg = request.json['msg']
+    if type != "symptom":
+        type = request.json['intent']
     # ints = predict_class(msg, model)
     # res = getResponse(ints, intents)
     res = dict()
-    intent, pred = model_predict_intent(msg, "model.h5", text3, labels3_text)
+    if type == "symptom":
+        pred = predict_tree_symptom(msg)
+        intent = "symptom"
+    else:
+        intent, pred = model_predict_intent(msg, "model.h5", text3, labels3_text)
     res['reply'] = pred
     res['intent'] = intent
 
@@ -264,7 +274,7 @@ def getResponse(ints, intents_json):
 
 import numpy as np
 from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
 from keras.layers import Dense, Input, GlobalMaxPooling1D
 from keras.layers import Conv1D, MaxPooling1D, Embedding, Flatten
@@ -389,10 +399,97 @@ def model_predict_symptom(sentence, model_name, text, labels_text):
     
     return intent, prediction
 
+from textblob import TextBlob
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+import scispacy
+import spacy
+import en_core_sci_sm
+from scispacy.umls_linking import UmlsEntityLinker
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+from sklearn import tree 
+
+decision_tree = DecisionTreeClassifier()
+decision_tree = pickle.load(open("decision_tree.pkl", "rb"))
+nlp = spacy.load("en_core_sci_sm")
+nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "umls"})
+dataset = pd.read_csv('final_disease_symptom_data.csv')
+
+def predict_tree_symptom(text):
+    blob = TextBlob(text)
+    # str = 'I am sufferig from angina pectoris, sweat, sweating, shortness of breath'
+    blob = blob.correct()
+    # str = for s in clean_str.sentences
+    clean_str = blob.string
+    print(clean_str)
+    stop_words = set(stopwords.words('english'))
+    clean_str = nltk.word_tokenize(clean_str)
+    # str = [str for str in str.split() if str not in stopwords.words('english')]
+    filtered_sentence = [w for w in clean_str if not w.lower() in stop_words]
+    clean_str = filtered_sentence
+    print(clean_str)
+    clean_str = " ".join(clean_str)
+    print(clean_str)
+
+    nlp_out = nlp(clean_str).ents
+
+    # linker = UmlsEntityLinker(resolve_abbreviations=True)
+    # nlp.add_pipe("umls_entity_linker")
+    symptoms_detected = []
+    for s in nlp_out:
+        for d in dataset.columns[1:]:
+            out = ""
+            out = s.text
+            flag = 0
+            for o in out.split():
+                if o in d:
+                    # print(d)
+                    # print(s.text,d)
+                    flag = 1
+                else:
+                    flag = 0
+                    break
+            if flag == 1:
+                # print(d)
+                if d not in symptoms_detected:
+                    symptoms_detected.append(d)
+
+    # symptoms_detected.pop(1)   
+    # symptoms_detected.pop(2)
+    # symptoms_detected.pop(4)
+    # symptoms_detected.pop(5)
+    # symptoms_detected.pop(1)
+    for d in symptoms_detected:
+        print(d)
+
+    counter = 0
+    predict = []
+    for d in dataset.columns[1:]:
+        if len(symptoms_detected) == counter:
+            predict.append(0)
+            continue
+        if d == symptoms_detected[counter]:
+            predict.append(1)
+            counter = counter + 1
+        else:
+            predict.append(0)
+
+    # predict[22] = 0
+    if len(predict) == 446:
+        predict.pop()
+    print(predict)
+    print(decision_tree.predict([predict]))
+
+    return "I think you are suffering from " + decision_tree.predict([predict])
+
 # train_model(text3, labels3, labels3_text, "model.h5")
-train_model(text_symptoms, labels_symptoms, labels_symptoms_text, "model_symptoms.h5")
+# train_model(text_symptoms, labels_symptoms, labels_symptoms_text, "model_symptoms.h5")
 # model_predict_intent("hi", "model.h5", text3, labels3_text)
 # model_predict_symptom("Im sufering shortness  of breath, dizziness and chest pain", "model_symptoms.h5", text_symptoms, labels_symptoms_text)
-    
+
+predict_tree_symptom("i am suffering from headache, body pain, angina pectoris and fever")
+
 if __name__ == "__main__":
     app.run(debug=True)
