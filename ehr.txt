@@ -1,0 +1,261 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.7.0 <0.9.0;
+import "hardhat/console.sol";
+/**
+ * @title Storage
+ * @dev Store & retrieve value in a variable
+ * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
+ */
+contract ehr {
+
+    struct access_priviledge {
+        uint256 account_type; // 1-HOSPITAL, 2-PATIENT, 3-DOCTOR, 4...
+        address account_addr;
+        uint256[10] read;
+        uint256[10] write;
+    }
+
+    struct access_authority {
+        address doctor_address;
+        address patient_address;
+        uint256 access; // 1-REQUEST, 2-APPROVED, 3-DENIED
+    }
+
+    string[] record;
+
+    mapping (string => mapping(uint256 => string)) public records;
+    mapping (uint256 => uint256[]) private accessRecords;
+    mapping (address => access_priviledge) public accessPriviledges;
+    mapping (string => mapping(address => access_authority)) public accessAuthority;
+    mapping (address => address[]) private listPatients;
+
+    // function store(string[] memory str, string memory pid) public {
+    //     records[pid] = str;
+    // }
+
+    // function assignPriviledge(string memory access_type) public {
+    //     if(keccak256(abi.encodePacked((access_type))) == keccak256(abi.encodePacked(("doctor")))){
+    //         accessRecords[access_type] = [0,4];
+    //     } else if(keccak256(abi.encodePacked((access_type))) == keccak256(abi.encodePacked(("patient")))){
+    //         accessRecords[access_type] = [0,1,2,3,4];
+    //     }
+    // }
+
+    address owner;
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    constructor(address _owner){
+        owner = _owner;
+    }
+
+    function init_priviledges_admin() public onlyOwner {
+        uint256[10] memory read = [uint256(1),2,3,4,5,6,7,8,9,10];
+        uint256[10] memory write = [uint256(1),2,3,4,5,6,7,8,9,10];
+
+        accessPriviledges[msg.sender] = access_priviledge(1, msg.sender, read, write);
+    }
+
+    function list_priviledges() public view returns (uint256 , uint256[10] memory, uint256[10] memory) {
+
+        return (accessPriviledges[msg.sender].account_type, accessPriviledges[msg.sender].read, accessPriviledges[msg.sender].write);
+    }
+
+    function list_account_priviledges(address add) public view returns (uint256 , uint256[10] memory, uint256[10] memory) {
+
+        return (accessPriviledges[add].account_type, accessPriviledges[add].read, accessPriviledges[add].write);
+    }
+
+    function list_all_patients() public view returns (address[] memory) {
+        return listPatients[msg.sender];
+    }
+
+    function init_priviledges(uint256 access_type) public {
+
+        if(access_type == 0)
+            revert("Not Allowed!");
+
+        uint256[10] memory read;
+        uint256[10] memory write;
+
+        accessPriviledges[msg.sender] = access_priviledge(access_type, msg.sender, read, write);
+    }
+
+    function modify_priviledges(address addr, uint256 para, uint256 access_type) public { // mode 9- read, 10- write mode 4- removeread, 5- removewrite
+
+        if(accessPriviledges[msg.sender].account_type == 0)
+            revert("Not Allowed!");
+
+        if(accessPriviledges[msg.sender].account_type == 2 && access_type == 9)
+            accessPriviledges[addr].read[para-1] = para;
+        else if(accessPriviledges[msg.sender].account_type == 2 && access_type == 10)
+            accessPriviledges[addr].write[para-1] = para;
+        else if(accessPriviledges[msg.sender].account_type == 2 && access_type == 4)
+            accessPriviledges[addr].read[para-1] = 0;
+        else if(accessPriviledges[msg.sender].account_type == 2 && access_type == 5)
+            accessPriviledges[addr].write[para-1] = 0;
+    }
+
+    function request_access(string memory pid, address padd) public {
+        uint256 access_type = accessPriviledges[msg.sender].account_type;
+        if(access_type != 2 || access_type != 0) {
+            accessAuthority[pid][padd] = access_authority(msg.sender, padd, 1);
+            listPatients[msg.sender].push(padd);
+            listPatients[padd].push(msg.sender);
+        }
+        else
+            revert("Not Authorized");
+    }
+
+    function approve_access(string memory pid) public {
+        uint256 access_type = accessPriviledges[msg.sender].account_type;
+        if(access_type == 2) {
+            console.log(msg.sender);
+            console.log(accessAuthority[pid][msg.sender].patient_address);
+            if(accessAuthority[pid][msg.sender].patient_address == msg.sender){
+                accessAuthority[pid][msg.sender].access = 2;
+            }
+            else
+                revert("Not Authorized");
+        }
+        else
+            revert("Not Authorized");
+    }
+
+    function revoke_access(string memory pid) public {
+        uint256 access_type = accessPriviledges[msg.sender].account_type;
+        if(access_type == 2) {
+            if(accessAuthority[pid][msg.sender].patient_address == msg.sender)
+                accessAuthority[pid][msg.sender].access = 3;
+            else
+                revert("Not Authorized");
+        }
+        else
+            revert("Not Authorized");
+    }
+
+    // function list_authorizations(string memory pid) public view returns (address[] memory) {
+    //     return accessAuthority[pid];
+    // }
+
+    function write_record(uint256 para, string memory pid, address padd, string memory newPara) public {
+
+        if(accessAuthority[pid][padd].access != 2)
+            revert("Not Authorized. Please Request for Access first!");
+
+        uint256 access_type = accessPriviledges[msg.sender].account_type;
+        console.log("hi");
+
+        if(access_type == 0)
+            revert("Not Enough Priviledges to Execute this Function..!");
+
+        if(access_type < 3){
+            console.log(access_type);
+            console.log(pid);
+            console.log(newPara);
+            console.log(records[pid][para]);
+            // string[] memory temp;
+            // temp[0] = newPara;
+            records[pid][para] = newPara;
+            console.log("after update");
+        } else {
+
+            console.log("else");
+
+            uint256[10] memory accessParas = accessPriviledges[msg.sender].write;
+            
+            for (uint256 i=0;i<accessParas.length;i++){
+                if(para == accessParas[i])
+                    records[pid][para] = newPara;
+            }
+        }
+
+        console.log("end");
+
+    }
+
+    function write_all_records(uint256[] memory para, string memory pid, string[] memory newPara) public {
+
+        uint256 access_type = accessPriviledges[msg.sender].account_type;
+        // console.log("hi");
+
+        if(access_type == 0)
+            revert("Not Enough Priviledges to Execute this Function..!");
+
+        uint256[10] memory accessParas = accessPriviledges[msg.sender].write;
+        
+        for (uint256 i=0;i<accessParas.length;i++){
+            if(para[i] == accessParas[i])
+                records[pid][para[i]] = newPara[i];
+        }
+
+        console.log("end");
+
+    }
+
+    function read_record(string memory pid, uint256 para) public view returns (string memory) {
+        uint256 access_type = accessPriviledges[msg.sender].account_type;
+        uint256[10] memory accessParas = accessPriviledges[msg.sender].read;
+
+        if(access_type == 0)
+            revert("Not Enough Priviledges to Execute this Function..!");
+
+        if(access_type < 3){
+            return records[pid][para];
+        }
+        
+        for (uint256 i=0;i<accessParas.length;i++){
+            if(para == accessParas[i]) {
+                return records[pid][para];
+            }
+        }
+
+        return "";
+    }
+
+    function read_all_records(string memory pid) public view returns (string[] memory) {
+        uint256 access_type = accessPriviledges[msg.sender].account_type;
+        uint256[10] memory accessParas = accessPriviledges[msg.sender].read;
+
+        if(access_type == 0)
+            revert("Not Enough Priviledges to Execute this Function..!");
+
+        string[] memory res;
+        res = new string[](accessParas.length);
+        uint c = 0;
+        
+        for (uint256 i=0;i<accessParas.length;i++){
+            if(accessParas[i] != 0) {
+                res[c] = records[pid][accessParas[i]];
+                c++;
+            }
+        }
+
+        return res;
+    }
+
+    // function getRecord(string memory id, string memory access_type) public view returns (string[] memory) {
+    //     uint256[] storage accessParas = accessRecords[access_type];
+    //     string[] memory res;
+    //     res = new string[](accessParas.length);
+    //     uint c = 0;
+    //     for (uint256 i=0;i<accessParas.length;i++){
+    //         res[c] = retrieve(id, accessParas[i]);
+    //         c++;
+    //     }
+
+    //     return res;
+    // }
+
+    /**
+     * @dev Return value 
+     * @return value of 'number'
+     */
+    // function retrieve(string memory id, uint256 para) public view returns (string memory){
+    //     return records[id][para];
+    // }
+
+}

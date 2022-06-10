@@ -17,6 +17,19 @@ const abi = [
 	{
 		"inputs": [
 			{
+				"internalType": "string",
+				"name": "pid",
+				"type": "string"
+			}
+		],
+		"name": "approve_access",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
 				"internalType": "uint256",
 				"name": "access_type",
 				"type": "uint256"
@@ -53,6 +66,37 @@ const abi = [
 			}
 		],
 		"name": "modify_priviledges",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "pid",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "padd",
+				"type": "address"
+			}
+		],
+		"name": "request_access",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "pid",
+				"type": "string"
+			}
+		],
+		"name": "revoke_access",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -104,6 +148,11 @@ const abi = [
 				"type": "string"
 			},
 			{
+				"internalType": "address",
+				"name": "padd",
+				"type": "address"
+			},
+			{
 				"internalType": "string",
 				"name": "newPara",
 				"type": "string"
@@ -112,6 +161,40 @@ const abi = [
 		"name": "write_record",
 		"outputs": [],
 		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "accessAuthority",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "doctor_address",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "patient_address",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "access",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
 		"type": "function"
 	},
 	{
@@ -128,6 +211,53 @@ const abi = [
 				"internalType": "uint256",
 				"name": "account_type",
 				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "account_addr",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "add",
+				"type": "address"
+			}
+		],
+		"name": "list_account_priviledges",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256[10]",
+				"name": "",
+				"type": "uint256[10]"
+			},
+			{
+				"internalType": "uint256[10]",
+				"name": "",
+				"type": "uint256[10]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "list_all_patients",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
 			}
 		],
 		"stateMutability": "view",
@@ -228,6 +358,10 @@ const abi = [
 app.use(cors())
 
 app.use(express.json())
+
+var smart_contract_addr = "0x279395A8DB4656e043319F075b08e7CC2dd3e66e";
+var account_addr = "0x3738311e29EA5B33092063E5Eb8D43AD83012E07";
+var account_private = Buffer.from('500ed35d98ee5e19dccb37699260b6b9c4225ef8e2902d344e95aaff0ec1d3bb', 'hex');
 
 app.post('/api/getRecords', (req, res) => {
 
@@ -339,9 +473,6 @@ app.post('/api/getRecords', (req, res) => {
   // decrypted_data: string;
   // blockchain_data!: string;
   // blockchain_decrypted!: string;
-  var smart_contract_addr = "0x1f1aAFECeeaEd1aD8F896e024681763828e47332";
-  var account_addr = "0x3738311e29EA5B33092063E5Eb8D43AD83012E07";
-  var account_private = Buffer.from('500ed35d98ee5e19dccb37699260b6b9c4225ef8e2902d344e95aaff0ec1d3bb', 'hex');
   var nonce_value;
   // loading: boolean = false; 
 
@@ -425,43 +556,45 @@ app.post('/api/getRecords', (req, res) => {
           nonce:    web3.utils.toHex(nonce_value),
           to:       smart_contract_addr,
           value:    web3.utils.toHex(web3.utils.toWei('0', 'ether')),
-          gasLimit: web3.utils.toHex(2100000),
+          gasLimit: web3.utils.toHex(2000000),
           gasPrice: web3.utils.toHex(web3.utils.toWei('150', 'gwei')),
           data: myData
         }
         // Sign the transaction
-        const tx = new Tx(txObject, { chain: 'ropsten' });
+        const tx = new Tx(txObject);
         tx.sign(account_private);
     
         const serializedTx = tx.serialize();
         const raw = '0x' + serializedTx.toString('hex');
     
         // Broadcast the transaction
-        const transaction = web3.eth.sendSignedTransaction(raw, (err, tx) => {
-          console.log(tx)
-          if(err){
-            console.log(err);
-            if(index == (patient_dataset.length-1))
-              res.json({data: {message: 'Error', error: err.toString()}})
-          } 
-          else if(index == (patient_dataset.length-1)){
-            // console.log(req.body.key);
-            // console.log(paras);
-            secrets[0].forEach(element => {
-              // encr_sec.push(encryptText(element, req.body.key));
-              // crypt.setPublicKey(req.body.key);
-              // encr_sec.push(crypt.encrypt(element));
-              // console.log(element);
-              org_paras.push(element);
-              key.importKey(req.body.key);
-              let e = key.encrypt(element, 'base64');
-              encr_sec.push(e);
-            });
-            // console.log(encr_sec.toString('base64'));
-            // res.send("Complete");
-            res.json({data: {message: 'Completed', encrypted_secrets: encr_sec, pid: 'PID1'}})
-          }
-        });
+        setTimeout(() => {
+          const transaction = web3.eth.sendSignedTransaction(raw, (err, tx) => {
+            console.log(tx)
+            if(err){
+              console.log(err);
+              if(index == (patient_dataset.length-1))
+                res.json({data: {message: 'Error', error: err.toString()}})
+            } 
+            else if(index == (patient_dataset.length-1)){
+              // console.log(req.body.key);
+              // console.log(paras);
+              secrets[0].forEach(element => {
+                // encr_sec.push(encryptText(element, req.body.key));
+                // crypt.setPublicKey(req.body.key);
+                // encr_sec.push(crypt.encrypt(element));
+                // console.log(element);
+                org_paras.push(element);
+                key.importKey(req.body.key);
+                let e = key.encrypt(element, 'base64');
+                encr_sec.push(e);
+              });
+              // console.log(encr_sec.toString('base64'));
+              // res.send("Complete");
+              res.json({data: {message: 'Completed', encrypted_secrets: encr_sec, pid: 'PID1'}})
+            }
+          });
+        }, 1500);
 
       });
   }
@@ -513,6 +646,16 @@ app.post('/api/getRecords', (req, res) => {
 
   // res.send('Hello World!');
 })
+
+// app.post('/api/patient/list_doctors', (req, res) => {
+  
+//   var web3 = new Web3("http://127.0.0.1:7545");
+//   var contract = new web3.eth.Contract(abi, smart_contract_addr);
+//   contract.methods.list_all_patients().call({from: account_addr}).then((result) => {
+//     console.log(result);
+//   });
+
+// });
 
 function encryptText (plainText, key) {
   return crypto.publicEncrypt({

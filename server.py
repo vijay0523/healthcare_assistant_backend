@@ -211,6 +211,9 @@ def chatbot_response():\
     print(request.json['msg'])
     print(request.form.get('msg'))
     msg = request.json['msg']
+    if msg == "I want to check my symptoms":
+        type = "symptom"
+        return jsonify({'reply':'Please enter your symptoms', 'intent': 'symptoms'})
     if type != "symptom":
         type = request.json['intent']
     # ints = predict_class(msg, model)
@@ -219,10 +222,13 @@ def chatbot_response():\
     if type == "symptom":
         pred = predict_tree_symptom(msg)
         intent = "symptom"
+        res['reply'] = pred[0]
     else:
         intent, pred = model_predict_intent(msg, "model.h5", text3, labels3_text)
-    res['reply'] = pred
+        res['reply'] = pred
+    
     res['intent'] = intent
+    print(res)
 
     # res = model_predict(msg)
     # res = "Hello"
@@ -361,8 +367,14 @@ def model_predict_intent(sentence, model_name, text, labels_text):
     if(np.argmax(yprob[0])==0):
         answers = ["Sure! I can do that", "Sure! When do you want me to schedule the appointment?", "Sure! Can i know what time you are available?"]
         prediction = random.choice(answers)
+    if(np.argmax(yprob[0])==1):
+        answers = ["I was built in a lab at MIT Institute"]
+        prediction = random.choice(answers)
     if(np.argmax(yprob[0])==2):
         answers = ["Hello there!", "Hi, What can i do for you today?", "Hey there! How can i help you?", "Hi!"]
+        prediction = random.choice(answers)
+    if(np.argmax(yprob[0])==3):
+        answers = ["Bye Bye!", "Bye! Have a nice day", "Bye! Have a nice day", "Bye! Have a nice day"]
         prediction = random.choice(answers)
     if(np.argmax(yprob[0])==4):
         answers = ["Sorry, I could not understand what you meant..! Could you repeat?", "Sorry, I cannot do that!", "Sorry! My skills are currently limited", "Sorry i cannot do that right not!", "Sorry, I cannot understand that!"]
@@ -413,8 +425,8 @@ from sklearn import tree
 
 decision_tree = DecisionTreeClassifier()
 decision_tree = pickle.load(open("decision_tree.pkl", "rb"))
-nlp = spacy.load("en_core_sci_sm")
-nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "umls"})
+# nlp = spacy.load("en_core_sci_sm")
+# nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "umls"})
 dataset = pd.read_csv('final_disease_symptom_data.csv')
 
 def predict_tree_symptom(text):
@@ -429,11 +441,15 @@ def predict_tree_symptom(text):
     # str = [str for str in str.split() if str not in stopwords.words('english')]
     filtered_sentence = [w for w in clean_str if not w.lower() in stop_words]
     clean_str = filtered_sentence
+    for w in clean_str:
+        if w == ',':
+            clean_str.remove(w)
     print(clean_str)
-    clean_str = " ".join(clean_str)
-    print(clean_str)
+    # clean_str = " ".join(clean_str)
+    # print(clean_str)
 
-    nlp_out = nlp(clean_str).ents
+    nlp_out = clean_str
+    # nlp_out = nlp(clean_str).ents
 
     # linker = UmlsEntityLinker(resolve_abbreviations=True)
     # nlp.add_pipe("umls_entity_linker")
@@ -441,7 +457,8 @@ def predict_tree_symptom(text):
     for s in nlp_out:
         for d in dataset.columns[1:]:
             out = ""
-            out = s.text
+            # out = s.text
+            out = s
             flag = 0
             for o in out.split():
                 if o in d:
@@ -489,7 +506,7 @@ def predict_tree_symptom(text):
 # model_predict_intent("hi", "model.h5", text3, labels3_text)
 # model_predict_symptom("Im sufering shortness  of breath, dizziness and chest pain", "model_symptoms.h5", text_symptoms, labels_symptoms_text)
 
-predict_tree_symptom("i am suffering from headache, body pain, angina pectoris and fever")
+predict_tree_symptom("i am suffering from headache, body pain,chest pain,, shortness of breath, angina pectoris and fever")
 
 if __name__ == "__main__":
     app.run(debug=True)
